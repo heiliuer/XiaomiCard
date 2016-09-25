@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/ssd_download" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ssd_download" />
+        <Button android:id="@id/get_card_status" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/get_zyt_card_status" />
+        <Button android:id="@id/download_credit_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/download_bank_card" />
+        <Button android:id="@id/activate_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/activate_card" />
+        <Button android:id="@id/read_trade_records" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/read_trade_records" />
+        <Button android:id="@id/pre_topup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/pre_topup" />
+        <Button android:id="@id/pay" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/pay" />
+        <Button android:id="@id/log_off" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cancel_card" />
+        <Button android:id="@id/delete" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/app_delete" />
+        <LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <EditText android:id="@id/phone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="phone" />
+            <Button android:id="@id/send_sms" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/send_sms" />
+            <EditText android:id="@id/sms_code" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="number" />
+            <Button android:id="@id/verify_sms_code" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/validate_sms_code" />
+            <TextView android:id="@id/sms_result" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wait_result" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

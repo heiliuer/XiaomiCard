@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="card_recharge_array_first_time_amounts">
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+    </string-array>
+    <string-array name="card_recharge_array_amounts">
+        <item>100</item>
+        <item>150</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="card_detail_more_items">
+        <item>查询记录</item>
+        <item>常见问题</item>
+    </string-array>
+    <string-array name="card_detail_more_items_summaries">
+        <item>查看充值次数</item>
+        <item>帮您找到答案</item>
+    </string-array>
+    <string-array name="mipay_user_terms">
+        <item>银行用户协议</item>
+    </string-array>
+</resources>

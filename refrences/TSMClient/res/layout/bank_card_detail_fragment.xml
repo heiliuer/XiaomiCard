@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/bank_card_item" android:layout_width="fill_parent" layout="@layout/bank_card_item" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.ListView.Item.DoubleLine">
+        <TextView android:textSize="@dimen/tsm_text_size_content_normal" android:textColor="@color/dark" android:id="@id/tv_number_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bank_card_number" />
+        <TextView android:textSize="@dimen/tsm_text_size_content_medium" android:textColor="@color/gray" android:gravity="end" android:id="@id/tv_number" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.ListView.Item.DoubleLine">
+        <TextView android:textSize="@dimen/tsm_text_size_content_normal" android:textColor="@color/dark" android:id="@id/pan_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bank_card_pan" />
+        <TextView android:textSize="@dimen/tsm_text_size_content_medium" android:textColor="@color/gray" android:gravity="end" android:id="@id/tv_pan" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

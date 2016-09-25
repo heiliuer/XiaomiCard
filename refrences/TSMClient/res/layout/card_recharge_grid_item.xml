@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.tsmclient.ui.RechargeGridItem android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tsm="http://schemas.android.com/apk/res/com.miui.tsmclient">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.miui.tsmclient.ui.widget.MiuiDigitFontEditText android:textSize="@dimen/card_recharge_grid_item_text_size_big" android:gravity="center" android:id="@id/card_recharge_edit_recharge_amount" android:background="@null" android:paddingLeft="0.0dip" android:paddingTop="@dimen/card_recharge_edit_padding" android:paddingRight="@dimen/card_recharge_edit_padding" android:layout_width="wrap_content" android:layout_height="@dimen/card_recharge_grid_item_height" android:singleLine="true" android:inputType="number" tsm:fontStyle="normal" />
+        <com.miui.tsmclient.ui.widget.MiuiDigitFontTextView android:gravity="left" android:id="@id/card_recharge_yuan" android:focusable="false" android:text="@string/yuan" tsm:fontStyle="normal" style="@style/TextAppearance.Content.Dark" />
+    </LinearLayout>
+    <View android:id="@id/card_recharge_vertical_split" android:background="@drawable/card_recharge_split" android:layout_width="1.0px" android:layout_height="@dimen/card_recharge_grid_item_height" android:layout_alignParentRight="true" />
+    <View android:id="@id/card_recharge_horizontal_split" android:background="@drawable/card_recharge_split" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+</com.miui.tsmclient.ui.RechargeGridItem>

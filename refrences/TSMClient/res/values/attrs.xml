@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="KeyBoardType">
+        <enum name="Normal" value="0" />
+        <enum name="Number" value="1" />
+    </attr>
+    <attr name="Length" format="integer" />
+    <attr name="isPassword" format="boolean" />
+    <attr name="fontStyle">
+        <enum name="bold" value="1" />
+        <enum name="light" value="2" />
+        <enum name="normal" value="0" />
+    </attr>
+    <attr name="minCollapsedGap" format="dimension" />
+    <attr name="collapseAreaHeight" format="dimension" />
+    <attr name="scrollCardGap" format="dimension" />
+    <attr name="showTitle" format="boolean" />
+    <attr name="keyboardBarBackground" format="reference" />
+    <attr name="keyboardHideEnabled" format="boolean" />
+    <attr name="useSafeKeyboard" format="boolean" />
+    <attr name="extendedInputType">
+        <enum name="denomination" value="2" />
+        <enum name="identity" value="1" />
+        <enum name="none" value="0" />
+    </attr>
+    <attr name="color" format="color" />
+    <attr name="max_radius" format="dimension" />
+    <attr name="leftText" format="string" />
+    <attr name="leftTextSize" format="dimension" />
+    <attr name="leftTextColor" format="reference|color" />
+    <attr name="rightTextSize" format="dimension" />
+    <attr name="rightTextColor" format="reference|color" />
+    <attr name="showRightArrow" format="boolean" />
+    <attr name="layoutManager" format="string" />
+    <attr name="spanCount" format="integer" />
+    <attr name="reverseLayout" format="boolean" />
+    <attr name="stackFromEnd" format="boolean" />
+</resources>

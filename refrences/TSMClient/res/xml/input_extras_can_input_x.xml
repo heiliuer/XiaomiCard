@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<input-extras
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <extra android:name="com.tsmclient.input_extra.can_input_x" android:value="true" />
+</input-extras>

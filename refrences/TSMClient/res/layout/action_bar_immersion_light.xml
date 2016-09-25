@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.tsmclient.ui.widget.ImmersionMenu android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/actionbar_immersion_margin_right"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/actionbar_ic_more" android:background="@miui:drawable/action_mode_immersion_more_light" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:layout_gravity="center|right|top" android:id="@id/actionbar_ic_new" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/actionbar_immersion_ic_new_margin_top" android:layout_marginRight="@dimen/actionbar_immersion_ic_new_margin_right" android:src="@drawable/action_bar_menu_new" />
+</com.miui.tsmclient.ui.widget.ImmersionMenu>

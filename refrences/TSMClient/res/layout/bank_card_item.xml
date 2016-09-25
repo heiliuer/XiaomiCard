@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bank_card_item" android:layout_width="fill_parent" style="@style/Widget.BankCardListItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/bank_icon" android:layout_width="@dimen/bank_card_item_icon_width" android:layout_height="@dimen/bank_card_item_icon_height" android:src="@drawable/logo_bank_cmb" android:scaleType="centerCrop" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/bank_card_item_margin_left_content">
+        <TextView android:textSize="@dimen/tsm_text_size_content_normal" android:textColor="@color/dark" android:id="@id/bank_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bank_name_cmb" />
+        <TextView android:textSize="@dimen/tsm_text_size_content_medium" android:textColor="@color/gray" android:id="@id/card_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bank_card_type_debit" />
+    </LinearLayout>
+    <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <TextView android:textSize="@dimen/tsm_text_size_content_medium" android:textColor="@color/gray" android:layout_gravity="center_vertical" android:id="@id/card_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/bank_card_item_margin_right_content" />
+    <TextView android:textSize="@dimen/tsm_text_size_content_medium" android:textColor="@color/gray" android:layout_gravity="end|center" android:id="@id/card_tail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/bank_card_item_margin_right_content" />
+</LinearLayout>

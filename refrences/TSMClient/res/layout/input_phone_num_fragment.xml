@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/tsm_content_margin_default" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/tsm_text_size_content_normal" android:textColor="@color/black_alpha_70" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/input_phone_num" />
+        <miui.widget.ClearableEditText android:textSize="@dimen/tsm_text_size_content_small" android:textColor="@color/black_alpha_70" android:textColorHint="@color/black_alpha_30" android:id="@id/phone_num" android:layout_width="fill_parent" android:layout_height="@dimen/edit_text_height" android:layout_marginTop="10.0dip" android:hint="@string/input_phone_num_hint" android:maxLength="@integer/phone_num_length" android:inputType="phone" style="@style/Widget.EditText.Clearable" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <Button android:id="@id/send_sms" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/next_step" />
+    </LinearLayout>
+</ScrollView>

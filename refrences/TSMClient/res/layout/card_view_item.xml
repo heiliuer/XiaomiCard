@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.tsmclient.ui.widget.SlideView android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/down_view" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tsm="http://schemas.android.com/apk/res/com.miui.tsmclient">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/header_view" android:paddingTop="3.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/trade_alert_header_height">
+        <TextView android:textSize="@dimen/tsm_text_size_content_medium" android:textColor="@color/white" android:id="@id/trade_descp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hci_event_trade_amount_descp" android:includeFontPadding="false" />
+        <com.miui.tsmclient.ui.widget.MiuiDigitFontTextView android:textSize="@dimen/card_detail_text_size_overage" android:textColor="@color/white" android:gravity="center" android:id="@id/trade_amount" android:layout_width="wrap_content" android:layout_height="@dimen/trade_alert_amount_height" tsm:fontStyle="light" />
+        <TextView android:textSize="@dimen/tsm_text_size_content_small" android:textColor="@color/white" android:id="@id/trade_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/content" android:background="@drawable/card_shadow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/card_high_light" android:foregroundGravity="center">
+        <com.miui.tsmclient.ui.widget.FlashView android:layout_gravity="center" android:id="@id/card_content" android:padding="@dimen/card_list_logo_margin_top" android:layout_width="@dimen/trade_alert_card_image_width" android:layout_height="@dimen/trade_alert_card_image_height">
+            <TextView android:textSize="@dimen/card_intro_title_text_size" android:id="@id/card_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            <TextView android:textSize="16.0sp" android:textColor="@android:color/black" android:id="@id/card_type" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+            <TextView android:textSize="@dimen/tsm_text_size_content_medium" android:textColor="@color/white" android:id="@id/card_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+        </com.miui.tsmclient.ui.widget.FlashView>
+    </FrameLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/footer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip">
+        <ImageView android:id="@id/trade_complete_img" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/card_list_logo_margin_top" android:src="@drawable/ic_ok" />
+        <TextView android:textSize="@dimen/tsm_text_size_content_normal" android:textColor="@color/white" android:id="@id/trade_complete" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+    </LinearLayout>
+</com.miui.tsmclient.ui.widget.SlideView>

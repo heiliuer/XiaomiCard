@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="40" android:drawable="@drawable/finger_pointer1" />
+    <item android:duration="40" android:drawable="@drawable/finger_pointer2" />
+    <item android:duration="40" android:drawable="@drawable/finger_pointer3" />
+    <item android:duration="40" android:drawable="@drawable/finger_pointer4" />
+    <item android:duration="40" android:drawable="@drawable/finger_pointer5" />
+    <item android:duration="40" android:drawable="@drawable/finger_pointer6" />
+    <item android:duration="40" android:drawable="@drawable/finger_pointer7" />
+    <item android:duration="40" android:drawable="@drawable/finger_pointer8" />
+    <item android:duration="40" android:drawable="@drawable/finger_pointer9" />
+    <item android:duration="40" android:drawable="@drawable/finger_pointer10" />
+</animation-list>

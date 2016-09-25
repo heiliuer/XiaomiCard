@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:cmb="http://schemas.android.com/apk/res/com.miui.tsmclient">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ListView android:scrollbarStyle="outsideOverlay" android:id="@id/bank_list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:cacheColorHint="@null" android:divider="@null" android:layout_weight="1.0" android:fadeScrollbars="true" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/empty_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/tsm_text_size_content_normal" android:textColor="@color/gray" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/bank_card_no_card" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,4 @@
+音量键
+{act=com.miui.intent.action.DOUBLE_CLICK flg=0x10000000 cmp=com.miui.tsmclient/.ui.quick.DoubleClickActivity (has extras)} from uid 1000 on display 0
+双击home键
+{act=com.miui.intent.action.DOUBLE_CLICK flg=0x20000000 cmp=com.miui.tsmclient/.ui.quick.DoubleClickActivity (has extras)} from uid 1000 on display 0

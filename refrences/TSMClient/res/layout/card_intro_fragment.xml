@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_horizontal" android:id="@id/card_intro_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/card_intro_rl_opencard" android:layout_width="fill_parent" android:layout_height="@dimen/card_intro_intro_bg_height" android:layout_alignParentTop="true" />
+        <com.miui.tsmclient.ui.widget.IndicatorBannerView android:id="@id/card_intro_banner" android:layout_width="fill_parent" android:layout_height="@dimen/card_intro_intro_bg_height">
+            <miui.view.ViewPager android:id="@id/viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.miui.tsmclient.ui.widget.ViewPagerIndicatorBar android:layout_gravity="bottom|center" android:id="@id/indicatorBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" />
+        </com.miui.tsmclient.ui.widget.IndicatorBannerView>
+        <TextView android:textSize="@dimen/card_intro_promotion_text_size" android:textColor="@color/white" android:gravity="center" android:id="@id/card_intro_tv_promotion" android:background="@color/promotion_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/card_intro_promotion_height" android:layout_below="@id/card_intro_banner" />
+        <TextView android:gravity="center" android:id="@id/card_intro_tv_intro" android:layout_marginLeft="@dimen/tsm_content_margin_default" android:layout_marginTop="@dimen/card_intro_msg_margin_top" android:layout_marginRight="@dimen/tsm_content_margin_default" android:layout_below="@id/card_intro_banner" android:layout_centerHorizontal="true" android:lineSpacingExtra="@dimen/card_intro_intro_line_space" style="@style/TextAppearance.Content.Dark" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/card_intro_tv_intro" android:layout_alignParentBottom="true">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/card_intro_ll_progress" android:paddingLeft="@dimen/progress_bar_margin_side" android:paddingRight="@dimen/progress_bar_margin_side" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                <TextView android:textSize="12.0sp" android:textColor="#ff9b9b9b" android:id="@id/card_intro_tv_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/card_intro_issue_progress_title" />
+                <miui.widget.ProgressBar android:id="@id/card_intro_progress_issue" android:layout_width="fill_parent" android:layout_height="3.0dip" android:layout_marginTop="@dimen/progress_bar_margin_top" android:max="100" android:progress="0" android:progressDrawable="@drawable/progress_horizontal" style="?android:attr/progressBarStyleHorizontal" />
+            </LinearLayout>
+            <RelativeLayout android:id="@id/card_intro_bottom_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/tsm_content_margin_default">
+                <Button android:enabled="true" android:id="@id/card_intro_btn_accept" android:layout_marginLeft="@dimen/tsm_content_margin_default" android:layout_marginRight="@dimen/tsm_content_margin_default" android:text="@string/card_intro_open_card" android:layout_alignParentBottom="true" style="@style/Widget.Button.Warning" />
+                <LinearLayout android:gravity="center_vertical" android:id="@id/card_intro_ll_protocols" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/card_intro_protocol_margin_bottom" android:layout_above="@id/card_intro_btn_accept" android:layout_centerHorizontal="true">
+                    <CheckBox android:textSize="@dimen/tsm_text_size_content_small" android:gravity="center_vertical" android:id="@id/card_intro_chk_contracts" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/card_intro_chk_margin_right" android:text="@string/agree" style="@style/TextAppearance.Content.Light" />
+                    <TextView android:textSize="@dimen/tsm_text_size_content_small" android:textColor="@android:color/black" android:id="@id/card_intro_tv_protocols" style="@style/TextAppearance.Content" />
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <FrameLayout android:orientation="vertical" android:id="@id/card_intro_fl_error" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/card_intro_ll_actionbar_back" android:background="@drawable/action_bar_bg_light" android:paddingTop="22.0dip" android:layout_width="fill_parent" android:layout_height="65.0dip">
+            <ImageView android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@miui:drawable/action_bar_back_light" />
+            <TextView android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/trans_card_title" style="@style/TextAppearance.Title.Black" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/list_ic_empty" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/service_unavailable" style="@style/TextAppearance.Content.Light" />
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

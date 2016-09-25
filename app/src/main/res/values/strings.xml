@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">刷卡</string>
+    <string name="action_settings">刷卡</string>
+    <string name="msg_nfcon">是否打开NFC</string>
+    <string name="msg_nfcoff">是否关闭NFC</string>
+    <string name="ok">确认</string>
+    <string name="cancel">取消</string>
+    <string name="colse_app">退出</string>
+    <string name="info">提示</string>
+    <string name="return_">返回</string>
+    <string name="start">开始刷卡</string>
+    <string name="open_nfc_please">请打开NFC，点击返回</string>
+    <string name="close_nfc_please">请关闭NFC</string>
+    <string name="author">©2016 黑溜儿\nheiliuer@foxmail.com</string>
+    <string name="text_close_nfc">刷完关闭NFC</string>
+    <string name="text_auto_click_card">自动点击卡面</string>
+    <string name="text_auto_click_in_locked">锁屏自动刷卡</string>
+    <string name="opened_service">已开启锁屏(黑屏)刷卡的后台服务</string>
+    <string name="closed_service">已关闭锁屏(黑屏)刷卡的后台服务</string>
+    <string name="msg_info">
+        \t支持锁屏刷卡，支持锁频界面左右滑动快捷设置快捷刷卡，支持点击打开本应用刷卡\n\n
+        \t点击打开本应用刷卡返回后，home键轻触会失效，这个是因为刷卡时，会打开指纹识别，点击home键或者手指放在home键一会儿，就好了。\n\n
+        \t为了保证锁屏直接刷卡长期工作，请在miui安全中心-自启动管理中允许本应用【刷卡】自启动和唤醒，并在最近任务中锁定本应用\n\n
+    </string>
+    <string name="text_open_card_on_enter">进入自动刷卡</string>
+    <string name="not_support">抱歉！暂不支持你的系统版本！</string>
+    <string name="no_nfc">手机没有nfc功能，无法使用</string>
+    <string name="action_goto_forum">打开小米5论坛</string>
+</resources>

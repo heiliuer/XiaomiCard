@@ -1,0 +1,2 @@
+{cmp=com.miui.tsmclient/.ui.quick.DoubleClickActivity} from uid 10213 on display 0
+

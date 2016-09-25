@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="@dimen/tsm_content_margin_default" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/card_recharge_image_margin_top" android:src="@drawable/recharge_success" />
+    <TextView android:textAppearance="@style/TextAppearance.Large" android:id="@id/result_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/card_recharge_text_margin_top" android:layout_marginBottom="@dimen/card_recharge_text_interval_margin" android:text="@string/have_finished" />
+    <CheckBox android:textSize="@dimen/tsm_text_size_content_medium" android:id="@id/result_sub_checkbox" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/card_recharge_text_interval_margin" android:checked="false" android:text="@string/agree" style="@style/TextAppearance.Content.Light" />
+    <TextView android:textAppearance="@style/TextAppearance.Normal.Grey" android:id="@id/result_sub_text" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/card_recharge_success_sub" />
+    <TextView android:textAppearance="@style/TextAppearance.Normal.Grey" android:id="@id/result_more_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/card_recharge_text_margin_below" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <Button android:id="@id/finish" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/have_finished" style="@style/Widget.Button.Warning" />
+</LinearLayout>

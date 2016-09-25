@@ -1,0 +1,297 @@
+package com.miui.tsmclient.seitsm;
+
+option java_package = "com.miui.tsmclient.seitsm";
+
+option java_outer_classname = "TsmRpcModels";
+
+enum SeOperationType {
+    LOCK = 1;
+    UNLOCK = 2;
+    INSTALL = 3;
+    DELETE = 4;
+    SYNC = 5;
+    LOAD = 6;
+    CLEAN = 7;
+    TOPUP = 8;
+    UNRESTRICT = 9;
+}
+
+enum ActionSource {
+    APP_CLIENT = 0;
+    WEB_CLIENT = 1;
+    MI_CLOUD = 3;
+    SP = 4;
+    UNKNOWN = 5;
+}
+
+enum OtpMethod {
+    SMS = 1;
+    TEL = 2;
+    EMAIL = 3;
+}
+
+enum BankCardType {
+    DEBIT = 1;
+    CREDIT = 2;
+}
+
+enum CardIssueChannel {
+    UP = 1; // 中国银联
+ CMB = 2; // 招商银行
+}
+
+enum DeviceType {
+    PHONE = 1;
+    PAD = 2;
+    WATCH = 3;
+    BAND = 4;
+}
+
+enum ApplyChannel {
+    XIAOMI = 1;
+    BANK = 2;
+}
+
+enum CaptureMethod {
+    MANUAL = 1;
+    NFC = 2;
+    CAMERA = 3;
+    UNKNOWN_CAPTURE_METHOD = 4;
+}
+
+message SeInfo {
+    required bytes cplc = 1;
+    required string device_type = 2;
+    required string device_id = 3;
+    required ActionSource action_source = 4;
+}
+
+message SeOperation {
+    required string session_id = 1;
+    required SeOperationType type = 2;
+    optional string aid = 3;
+    optional bytes authentication_code = 4;
+    optional string city_id = 5;
+    optional string source_channel = 6;
+}
+
+message TsmSessionInfo {
+    required int32 result = 1 [default = 0];
+    optional string sessionId = 2;
+}
+
+message TsmCAPDU {
+    required bytes apdu = 1;
+    required string expect_sw_regex = 2;
+    optional int32 index = 3;
+}
+
+message TsmAPDUCommand {
+    required int32 result = 1 [default = 0];
+    required bool has_more = 2 [default = false];
+    repeated TsmCAPDU apdus = 3;
+}
+
+message SeAPDUResponseItem {
+    required bytes response_data = 1;
+    required bytes response_sw = 2;
+    optional int32 index = 3;
+}
+
+message SeAPDUResponse {
+    required string session_id = 1;
+    repeated SeAPDUResponseItem response = 2;
+}
+
+message TopUpOperation {
+    required string session_id = 1;
+    required string aid = 2;
+    required bytes authentication_code = 3;
+    optional string city_id = 4;
+    optional string card_number = 5;
+    optional int32 balance = 6;
+}
+
+message QueryProductInfoRequest {
+    optional string bin = 1;
+    optional int64 bindId = 2;
+}
+
+message VerifyCardInfoRequest {
+    required string session_id = 1;
+    optional string cardNumber = 2;
+    required bytes cipher_data = 3;
+    required RiskInfo riskInfo = 4;
+}
+
+message VerifyCardInfoResponse {
+    required int32 result = 1 [default = 0];
+    optional string aid = 2;
+    optional string virtualCardReferenceId = 3;
+    optional string virtualCardNumber = 4;
+    optional string expireDate = 5;
+    optional string lastDigits = 6;
+    optional string cardProductTypeId = 7;
+    optional string cardReferenceId = 8;
+    optional string phoneNumLastDigits = 9;
+}
+
+message RequestVerificationCode {
+    required string session_id = 1;
+    required string virtualCardReferenceId = 2;
+    required OtpMethod optMethod = 3;
+}
+
+message VerifyVerificationCode {
+    required string session_id = 1;
+    required string virtualCardReferenceId = 2;
+    required string verificationCode = 3;
+}
+
+message QueryBankCardInfoRequest {
+    required string cplc = 1;
+    optional string aid = 2;
+}
+
+message BankCardInfo {
+    optional string aid = 1;
+    optional string cardNumber = 2;
+    optional string virtualCardReferenceId = 3;
+    optional string virtualCardNumber = 4;
+    optional string lastDigits = 5;
+    optional int32 vcStatus = 6;
+    optional string userId = 7;
+    optional string productId = 8;
+    optional string productName = 9;
+    optional string userTerms = 10;
+    optional string cardArt = 11;
+    optional int32 cardType = 12;
+    optional CardIssuerInfo issuerInfo = 13;
+}
+
+message QueryBankCardInfoResponse {
+    required int32 result = 1 [default = 0];
+    repeated BankCardInfo bankCardInfoList = 2;
+}
+
+message CommonResponse {
+    required int32 result = 1 [default = 0];
+    optional string description = 2;
+}
+
+message SaveAppKeyRequest {
+    required string sessionId = 1;
+    optional string appName = 2;
+    optional string cpuModel = 3;
+    optional string tzId = 4;
+    optional string keyAlg = 5;
+    optional string pkX = 6;
+    optional string pkY = 7;
+    optional string clientSign = 8;
+    optional string deviceModel = 9;
+    optional string deviceId = 10;
+    optional string cplc = 11;
+}
+
+// POJO类，封装卡片发行方信息
+message CardIssuerInfo {
+    required CardIssueChannel cardIssueChannel = 1; // 渠道名称，通过哪个SP发的卡
+  required string issuerId = 2; // 发卡行ID，在同一channelName内唯一。同一银行的借贷记卡，issuerId可能不同。
+  optional string bankName = 3;
+    optional string logoUrl = 4;
+    optional string logoWithBankNameUrl = 5;
+}
+
+message QueryPanRequest {
+    required string sessionId = 1;
+    optional string pan = 2; // 明文PAN
+ optional int64 bindId = 3; // 快捷支付传过来的银行卡ID，可能为空
+}
+
+message QueryPanResponse {
+    required int32 result = 1 [default = 0];
+    optional CardIssuerInfo cardIssuerInfo = 2;
+    optional BankCardType cardType = 3; // 卡类型
+ optional string userTerms = 4;
+}
+
+message PreparePayAppletRequest {
+    required string sessionId = 1;
+    required CardIssuerInfo cardIssuerInfo = 2;
+    required BankCardType cardType = 3; // 卡类型
+}
+
+message EnrollUPCardRequest {
+    required string sessionId = 1;
+    optional string cardNumber = 2; // 明文的卡号，为了和现金关联，不会明文存储，比照招行验卡接口
+ required bytes cardInfo = 3; // 除PIN外的卡信息密文，用银联控件加密
+ optional bytes pinInfo = 4; // PIN的密文，用银联控件加密
+ optional bytes cvn2Info = 5; // cvn2的密文，用银联控件加密
+ required BankCardType bankCardType = 6; // return of queryPan
+ required RiskInfo riskInfo = 7; //风控数据
+}
+
+message VirtualCardInfoResponse {
+    required int32 result = 1 [default = 0];
+    optional string aid = 2;
+    optional string virtualCardReferenceId = 3;
+    optional string virtualCardNumber = 4;
+    optional string lastDigits = 6;
+    optional string cardProductId = 7;
+    optional string cardReferenceId = 8;
+    optional string phoneNumLastDigits = 9; // 预留手机号后几位，可能为空
+}
+
+message PullPersoDataRequest {
+    required string sessionId = 1;
+}
+
+message PullBusCardDataRequest {
+    required string sessionId = 1;
+}
+
+message PersoFinishNotifyRequest {
+    required string sessionId = 1;
+    required string virtualCardReferenceId = 2;
+    required bool operationResult = 3;
+    repeated SeAPDUResponseItem response = 4;
+}
+
+message ProcessFinishNotifyRequest {
+    required string sessionId = 1;
+    required bool actionResult = 2;
+    required SeOperationType actionType = 3;
+    repeated SeAPDUResponseItem response = 4;
+}
+
+message DeviceInfo {
+    required string deviceModel = 1;
+    required string lang = 2;
+    required string miuiRomType = 3;
+    required string miuiSystemVersion = 4;
+}
+
+message RiskInfo {
+    optional DeviceType deviceType = 1; //区别于SeInfo中的device_type
+ optional string deviceLanguage = 2;
+    optional string deviceName = 3;
+    optional ApplyChannel applyChannel = 4;
+    optional string deviceLocation = 5;
+    optional string extensiveDeviceLocation = 6;
+    optional CaptureMethod captureMethod = 7;
+    optional string accountEmailLife = 8;
+    optional string cardHolderName = 9;
+    optional string billingAddress = 10;
+    optional string billingZip = 11;
+    optional int32 riskScore = 12;
+    optional string riskStandardVersion = 13;
+    optional int32 deviceScore = 14;
+    optional int32 accountScore = 15;
+    optional int32 phoneNumberScore = 16;
+    repeated string riskReasonCode = 17;
+    optional string deviceNumber = 18;
+    repeated string fullDeviceNumber = 19;
+    optional string sourceIP = 20;
+    optional int32 deviceSIMNumber = 21;
+    optional string accountIDHash = 22;
+}

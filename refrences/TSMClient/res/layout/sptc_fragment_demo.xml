@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/load_app_list" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/load_app_list" />
+        <Button android:id="@id/load_downloaded_app_list" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/load_downloaded_app_list" />
+        <Button android:id="@id/load_app_info" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/load_app_info" />
+        <Button android:id="@id/app_download" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_download" />
+        <Button android:id="@id/app_lock" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_lock" />
+        <Button android:id="@id/app_unlock" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_unlock" />
+        <Button android:id="@id/ssd_download" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ssd_download" />
+        <Button android:id="@id/ssd_lock" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ssd_lock" />
+        <Button android:id="@id/ssd_unlock" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ssd_unlock" />
+        <Button android:id="@id/ssd_delete" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ssd_delete" />
+        <Button android:id="@id/sync_configuration" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sync_configuration" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/city_card" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/city_card" />
+            <Button android:id="@id/app_delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_delete" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

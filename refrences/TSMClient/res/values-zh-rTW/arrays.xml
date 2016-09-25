@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="card_recharge_array_first_time_amounts">
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+    </string-array>
+    <string-array name="card_recharge_array_amounts">
+        <item>100</item>
+        <item>150</item>
+        <item>其它</item>
+    </string-array>
+    <string-array name="card_detail_more_items">
+        <item>交易記錄</item>
+        <item>常見問題</item>
+    </string-array>
+    <string-array name="card_detail_more_items_summaries">
+        <item>查看充值次數</item>
+        <item>幫您找到答案</item>
+    </string-array>
+    <string-array name="mipay_user_terms">
+        <item>銀行服務用戶協議</item>
+    </string-array>
+    <string-array name="bank_card_action_not_approved">
+        <item>刪除這次申請記錄</item>
+        <item>重新申請</item>
+    </string-array>
+    <string-array name="bank_card_protocols">
+        <item>銀聯服務用戶協議</item>
+        <item>銀行服務用戶協議</item>
+    </string-array>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.tsmclient.ui.CardDetailMoreItem android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.ListView.Item.SingleLine"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="start" android:layout_gravity="center_vertical" android:id="@id/card_detail_tv_title" android:layout_weight="1.0" style="@style/TextAppearance.Content.Dark" />
+    <ImageView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/card_detail_ic_arrow" android:background="@drawable/arrow_right_dark" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.miui.tsmclient.ui.CardDetailMoreItem>

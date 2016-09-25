@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="@dimen/no_card_view_padding_top" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/tsm_text_size_content_normal" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/card_list_divider_height" android:includeFontPadding="false" />
+    <TextView android:textSize="@dimen/tsm_text_size_content_normal" android:id="@id/sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+    <ImageView android:id="@id/img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/no_card_img_margin_top" />
+    <TextView android:textSize="@dimen/tsm_text_size_content_normal" android:id="@id/msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/no_card_img_margin_bottom" android:includeFontPadding="false" />
+</LinearLayout>

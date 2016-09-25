@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.tsmclient.ui.CardListItem android:background="?miui:listViewItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/icon" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/title" />
+</com.miui.tsmclient.ui.CardListItem>

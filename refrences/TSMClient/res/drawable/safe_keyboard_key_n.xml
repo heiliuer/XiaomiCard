@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <color android:color="@color/safe_keyboard_key_color_n" />
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:width="1.0px" android:color="@color/safe_keyboard_key_border_color" />
+        </shape>
+    </item>
+</layer-list>

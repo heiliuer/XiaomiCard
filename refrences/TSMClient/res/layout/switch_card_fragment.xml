@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tsm="http://schemas.android.com/apk/res/com.miui.tsmclient">
+    <com.miui.tsmclient.ui.widget.WaveCircle android:id="@id/wave_cirle" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/finger_layer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/trade_alert_finger_view_layout_margin_top">
+        <ImageView android:id="@id/notice_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_fingerpoint" />
+        <TextView android:textSize="@dimen/tsm_text_size_content_normal" android:textColor="@color/white" android:id="@id/notice_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:text="@string/verify_finger" android:includeFontPadding="false" />
+    </LinearLayout>
+    <com.miui.tsmclient.ui.widget.CardStackLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent" tsm:showTitle="false" />
+    <ImageView android:layout_gravity="right" android:id="@id/ic_more" android:paddingLeft="@dimen/trade_alert_margin_large" android:paddingRight="@dimen/trade_alert_margin_large" android:paddingBottom="@dimen/trade_alert_margin_large" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/trade_alert_finger_view_layout_margin_top" android:src="@drawable/ic_more" />
+</FrameLayout>

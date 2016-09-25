@@ -1,0 +1,787 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+SHA1-Digest-Manifest: lj13zLr2EiNB/o5QnopON0x5yog=
+
+Name: res/drawable-xxhdpi-v4/num_9.png
+SHA1-Digest: zi2R1aJSr9QizktAvjsDkzvUDU0=
+
+Name: res/drawable-xxhdpi-v4/btn_transparent_pressed.9.png
+SHA1-Digest: 58S2WKoATu4gg9ud4ZIxuP3MEO4=
+
+Name: res/drawable/finger_pointer_frame.xml
+SHA1-Digest: uaK+OQPntwuSf2YJGsfYRGCdA/k=
+
+Name: res/layout/trans_card_location_select_list_item.xml
+SHA1-Digest: M2lN4U9JTB7JJoFwEbtftTTpP7I=
+
+Name: assets/bank_bin
+SHA1-Digest: g3rzKRm/NsHzuYNngsjZVs/UJdk=
+
+Name: assets/protos/Tsm.proto
+SHA1-Digest: ytyCvm8pO9T1+hE6AUJUwodxSmI=
+
+Name: res/layout/card_recharge_grid_item.xml
+SHA1-Digest: pmTAiV7PM5okuiRnjtjBzlEEiuc=
+
+Name: res/drawable-xxhdpi-v4/bankcard_intro_nfc.png
+SHA1-Digest: lf8eFrXVfIHnu0BnvM28EsTcF1A=
+
+Name: res/layout/card_detail_purchase_record_fragment.xml
+SHA1-Digest: o2ho59YmAyulxjqbZc7qvA/+qy0=
+
+Name: res/drawable-xxhdpi-v4/cmbkb_emotionstore_progresscancelbtn.png
+SHA1-Digest: iCMcPHpgyOhg/mvRZ8YOibbhO78=
+
+Name: res/drawable-xxhdpi-v4/list_category_item_bg.9.png
+SHA1-Digest: GJbJr+eRRKJ+ScQlZuKUEjvf5/Y=
+
+Name: res/drawable/bankcard_scan_bank_card_btn.xml
+SHA1-Digest: 2PJeO6OmdHC1TL1jqvE78N5UHvs=
+
+Name: res/xml/cmbkb_number.xml
+SHA1-Digest: 3PIrx7sz7drjs2g3E3/S8KAi4Fk=
+
+Name: res/drawable/card_list_bg_transcard.xml
+SHA1-Digest: 0oQPRkVS0it5NUlHXtLxizOXeLo=
+
+Name: res/layout/action_bar_immersion_dark.xml
+SHA1-Digest: EAFe5Zcc3+caRCZhgLne9Hz31YM=
+
+Name: res/drawable-xxhdpi-v4/num_6.png
+SHA1-Digest: 07+7uOv2yXHisLVfRvgt8Qpj5UA=
+
+Name: res/drawable-xxhdpi-v4/safe_keyboard_key_delete.png
+SHA1-Digest: 5eexHOeZ/xPnsTwlIY7Z2tTj7UI=
+
+Name: res/drawable-xxhdpi-v4/cmbkb_backspace_dark_icon.png
+SHA1-Digest: ciKcA6e/ff76aQwTAwhuB3rBiHQ=
+
+Name: res/layout/card_detail_purchase_record_item.xml
+SHA1-Digest: pdvTv4254Ss0QDzRLjzkaszNukk=
+
+Name: res/drawable-xxhdpi-v4/bank_card_guide.png
+SHA1-Digest: mKQQrzYughwPGdDAPlMQHPCRhqQ=
+
+Name: res/xml/cmbkb_number_with_dot.xml
+SHA1-Digest: k9S6mBpwLxlRRNUv5B0snmRqaJ8=
+
+Name: res/drawable-xxhdpi-v4/card_intro_sptc_bg.png
+SHA1-Digest: d2udn93/DfnwgkXqJqZb7M6QsTM=
+
+Name: res/layout/card_detail_grid_item.xml
+SHA1-Digest: S5ieMPHijQ/SP+KEoDKjpGg9Kvg=
+
+Name: res/drawable-xxhdpi-v4/trans_card_bg_default.png
+SHA1-Digest: EBsjldC+PjdxwIUm16hXXbwvfyY=
+
+Name: res/drawable-xxhdpi-v4/num_4.png
+SHA1-Digest: yjfmMFr7a7SPhFDx/889p4HosgI=
+
+Name: res/drawable-xxhdpi-v4/safe_icon.png
+SHA1-Digest: RS5MGBiGL+YhPNdarUl93Wd7dLI=
+
+Name: res/drawable-xxhdpi-v4/question_mark.png
+SHA1-Digest: W4M0QZ+hsCPuFAdzETgvxvcoD+w=
+
+Name: res/drawable-xxhdpi-v4/num_0.png
+SHA1-Digest: YAyfeMZD8ZqFNzNhQjuw5nbBA2c=
+
+Name: res/drawable-xxhdpi-v4/icon_search.png
+SHA1-Digest: bONn8u7hPWSJV+vl9vnBOPSt6Cg=
+
+Name: res/drawable-xxhdpi-v4/card_list_bg_cup_normal.png
+SHA1-Digest: JUE5HsJIclikhINrQqKYn8yO6t8=
+
+Name: res/drawable-xxhdpi-v4/list_item_bg_normal.9.png
+SHA1-Digest: PzzsAAkGiYfEfJA9V5mb8vnJD4M=
+
+Name: res/drawable-xxhdpi-v4/edit_bg_first.9.png
+SHA1-Digest: Y3+jAHKo7J6oKTDlIND3z+AVYGI=
+
+Name: res/drawable-xxhdpi-v4/logo_bank_zhongguo.png
+SHA1-Digest: gun9jzTE9NM1DbzfZFWFCfGAHnA=
+
+Name: res/drawable/arrow_right_dark.xml
+SHA1-Digest: 1yeaIOjVhuuf9m1f9vKzRTH51o4=
+
+Name: res/drawable-xxhdpi-v4/finger_pointer2.png
+SHA1-Digest: LN3hJIN13i4f7uHpLNbO9YPv9pM=
+
+Name: res/layout/card_issue_list_fragment.xml
+SHA1-Digest: R+w6DdhcA8IlcMTjtqsJcK/Z9Gw=
+
+Name: res/drawable-xxhdpi-v4/logo_lnt.png
+SHA1-Digest: /NwfkhawKXaEq7pTs93O17N5KnU=
+
+Name: assets/fonts/miui_digit_normal.ttf
+SHA1-Digest: n9oS7FhQW9mayc+eIW/RG89fm7c=
+
+Name: res/menu/menu_input_bank_card_number.xml
+SHA1-Digest: hxMzb7Y+JFZLIVouzjI3RgTIzZo=
+
+Name: res/layout/zyt_fragment_demo.xml
+SHA1-Digest: L/RX+PRvtP7+6q+cqrikbRpuLng=
+
+Name: res/drawable/card_list_bg_cup.xml
+SHA1-Digest: ZTBqXLXetvkS/wfW7818n9TO5KI=
+
+Name: res/drawable-xxhdpi-v4/card_high_light.png
+SHA1-Digest: lktqgx7PMzd4S8hFt69Gb3w/B8M=
+
+Name: res/drawable-xxhdpi-v4/card_list_bg_transcard_pressed.png
+SHA1-Digest: NIOkwxDTJ2s9l3/scPuevAhBmkM=
+
+Name: res/drawable/default_place_holder.png
+SHA1-Digest: wSHk3RZmbIkrdcWOZcdrxzok7iI=
+
+Name: res/layout/trans_card_recharge_item.xml
+SHA1-Digest: hFagcA6lVki97Pb5vlo2KyX3b3A=
+
+Name: res/drawable/safe_keyboard_special_key_n.xml
+SHA1-Digest: FVJsiquU68yv2Wd+IJKk/DQ3s1Q=
+
+Name: res/drawable-xxhdpi-v4/card_intro_zyt_bg.9.png
+SHA1-Digest: YBVD2ZyTGpetfqJXZXcRbzYsna0=
+
+Name: res/drawable-xxhdpi-v4/card_pic_beijing.png
+SHA1-Digest: UX5E6fe9vGNGMCxrSpZ9YyaKkrE=
+
+Name: res/drawable-xxhdpi-v4/up_delete.png
+SHA1-Digest: 6U39gAtJZ9NgvEIB++ut5tmwIT4=
+
+Name: res/anim/card_rotation.xml
+SHA1-Digest: X0nem8ncKqmt375TX21f8N/QIHA=
+
+Name: res/drawable/viewpager_indicator_item_bg_shape_selector.xml
+SHA1-Digest: cywF3tC36G/8XrGFg/DLuRavq88=
+
+Name: res/drawable-xxhdpi-v4/safe_keyboard_key_hide.png
+SHA1-Digest: Q3djGHbfVi3/bkXHBhjfysDO3IA=
+
+Name: res/drawable-xxhdpi-v4/card_recharge_grid_item_normal.9.png
+SHA1-Digest: fzfwdiQd0w/OLBsujeWbkXRy/f4=
+
+Name: res/layout/card_recharge_issue_fragment.xml
+SHA1-Digest: q62ZXo2exildNjO6C0czpVKm058=
+
+Name: message.xml
+SHA1-Digest: QFo3lXi5o+2WG9Y5xIeVs9CONwA=
+
+Name: res/drawable-xxhdpi-v4/ic_ok.png
+SHA1-Digest: 596yZAC9qxbcPQJQwfeysfN56oA=
+
+Name: res/drawable/cmbkb_space_dark.png
+SHA1-Digest: aYz25BPZvQ5dJUBj0GeIG8FNb8E=
+
+Name: res/drawable-xxhdpi-v4/arrow_right_dark_pressed.png
+SHA1-Digest: uFYTYU3qhB/HyyJC6NGjwtAeL60=
+
+Name: res/layout/cmbkeyboard.xml
+SHA1-Digest: LHPnAh+pYvSwiXyywa9+W/APE30=
+
+Name: res/drawable-xxhdpi-v4/card_shadow.png
+SHA1-Digest: jsILu+cKznpZpdpbQFcRmSqkFsM=
+
+Name: res/drawable/btn_round_add_selector.xml
+SHA1-Digest: QXm0NEWHRXbyRqnCzYzI9SglsO4=
+
+Name: res/drawable-xxhdpi-v4/num_2.png
+SHA1-Digest: 5QSCqe/VsVP+fV2bIxWkDVqACWw=
+
+Name: res/drawable-xxhdpi-v4/trans_card_guide.png
+SHA1-Digest: pCpSbyBMPXQXPTAq3kXD7k81D5U=
+
+Name: res/drawable/safe_keyboard_key.xml
+SHA1-Digest: caUm0h2jXhQ4AmIEUsWFjRVokpk=
+
+Name: res/drawable/bank_card_bg_gold.png
+SHA1-Digest: BYutL5xO9GRBEu9VYX/HF780/xU=
+
+Name: res/drawable-xxhdpi-v4/edit_bg_middle.9.png
+SHA1-Digest: LPQuMh5TpIxJf5ZltYOEJlY6cb8=
+
+Name: res/drawable-xxhdpi-v4/edit_bg_single.9.png
+SHA1-Digest: rqyk80Z9yiLAsxBcM5O9i6g8iio=
+
+Name: res/drawable-xxhdpi-v4/action_bar_back_light_pressed.png
+SHA1-Digest: Xk7fslaY6yAdj3CcaCqPqKZvpGs=
+
+Name: res/drawable-xxhdpi-v4/card_list_bg_transcard_normal.png
+SHA1-Digest: 8ft/Z6ZFDY6tFfft9HTVkZFjH9o=
+
+Name: res/drawable/cmbkb_btn_pressed.9.png
+SHA1-Digest: Zo7cEPqrUIrzND+5p11DN9ng4qU=
+
+Name: res/anim/up_safe_keyboard_exit.xml
+SHA1-Digest: cOkNObtsSOiVi5n6I9lHv37FXy8=
+
+Name: res/layout/trans_card_location_select_fragment.xml
+SHA1-Digest: V8VE+a7HkswFSOx4rard0TfXC6c=
+
+Name: res/layout/bank_card_detail_fragment.xml
+SHA1-Digest: lP57KbTb3DHug3f91uDreVzEFjw=
+
+Name: res/drawable-xxhdpi-v4/logo_szt.png
+SHA1-Digest: FqoK0wna4UTEreJPt11IIkAPsXE=
+
+Name: res/menu/actionbar_immersion_set_default_card.xml
+SHA1-Digest: scq6iw/wsZy7ntkBdJXDnnrEd34=
+
+Name: res/drawable-xxhdpi-v4/finger_pointer4.png
+SHA1-Digest: /2jLunCGwetGouC7tjhZ1uFCkIE=
+
+Name: res/layout/card_issue_list_item.xml
+SHA1-Digest: Dk0Jgbi0HLvp93d56yLeo7eOaAE=
+
+Name: res/animator/fragment_slide_left_enter.xml
+SHA1-Digest: LoKknSmDMaPZnOURNFsF5zvifMY=
+
+Name: res/animator/safe_keyboard_slide_bottom_exit.xml
+SHA1-Digest: djxxIlksfbeiq81hvTxIhv9JTKw=
+
+Name: res/drawable-xxhdpi-v4/edit_bg_last.9.png
+SHA1-Digest: LzBvjzfRDYz8wJc/+xf52fJN6Ww=
+
+Name: res/drawable/cmbkb_sym_keyboard_space.png
+SHA1-Digest: QsSa7W6dhKDtrxOeW42HZ0q6kMo=
+
+Name: res/drawable-xxhdpi-v4/arrow_right_light_pressed.png
+SHA1-Digest: mfHomwCcpUVWTu+Yx3u7vPJOVIE=
+
+Name: res/drawable/cmbkb_space.png
+SHA1-Digest: emjdQ+vZ4o+kqU4Dr2RXrSoKMoc=
+
+Name: res/layout/test_fragment.xml
+SHA1-Digest: 9TYvZXdsfJK3t/CZLR3LGFcWkNY=
+
+Name: rx/android/widget/AutoValue_OnTextChangeEvent.java
+SHA1-Digest: NjDaA02GYdsg3bsjVaW2u2Uu5V8=
+
+Name: res/anim/up_safe_keyboard_enter.xml
+SHA1-Digest: DKNCwk+Jbafnc98/n1ix+zPGYXs=
+
+Name: res/animator/safe_keyboard_slide_bottom_enter.xml
+SHA1-Digest: v/Jvtz0V2Fa/DrMdKxjBMt22rFE=
+
+Name: res/drawable-xxhdpi-v4/card_intro_cup_bg.png
+SHA1-Digest: kJtzGcOcZItqWV3jlDQsRrCPkZE=
+
+Name: res/drawable-xxhdpi-v4/btn_round_back.png
+SHA1-Digest: w+rXoBQmWODxKANTXbzTOlpEVzw=
+
+Name: res/xml/cmbkb_symbols.xml
+SHA1-Digest: 31QzKCSUp5DEuh7ARnYBQ0vnJ1o=
+
+Name: res/drawable/safe_keyboard_key_special.xml
+SHA1-Digest: jJPBEBOa4h5g8maqyoT9LHjQ16o=
+
+Name: res/color/tab_text_light.xml
+SHA1-Digest: IZX/pMRzzBFP5Cw0qhZ+wFU0yzg=
+
+Name: res/drawable-xxhdpi-v4/finger_pointer6.png
+SHA1-Digest: I3I05ZLOd7CEprLDu46QcZTjte0=
+
+Name: res/layout/mi_safe_keyboard.xml
+SHA1-Digest: Uz0xEjIB4qI98Pd+vJ0La1W1tCg=
+
+Name: res/drawable-xxhdpi-v4/safe_keyboard_bar_shield_black.png
+SHA1-Digest: dTPtPsa6nOsuIaiqWmBobUfQheA=
+
+Name: res/layout/action_bar_immersion_light.xml
+SHA1-Digest: DDvrMYf4LfRJvghu2oLdGQ4iQyo=
+
+Name: res/drawable-xxhdpi-v4/transcard_intro_nfc.png
+SHA1-Digest: ws5H4QSX9tD8JPmqotx9SpWz4Pc=
+
+Name: res/layout/verify_sms_code_fragment.xml
+SHA1-Digest: 4n9F8XY9df9m7u241OFqyTiDW9w=
+
+Name: res/drawable-xxhdpi-v4/finger_pointer5.png
+SHA1-Digest: wEzbmlCBxF5qsNqy3yXIR2hsx/Y=
+
+Name: res/drawable-xxhdpi-v4/arrow_down_dark_normal.png
+SHA1-Digest: NF37/5sM7Cos/49MZ+YljzmVySQ=
+
+Name: res/drawable-xxhdpi-v4/safe_keyboard_key_done.png
+SHA1-Digest: GsVDWZKROYKaguWo+7Zx1QrxDmc=
+
+Name: res/drawable-xxhdpi-v4/logo_bank_cmb.png
+SHA1-Digest: t1xFa4dDHhSNye3BwfDcKoHfa6o=
+
+Name: res/drawable-xxhdpi-v4/list_ic_empty.png
+SHA1-Digest: qEUuk4wptqcBQXbo6pDH6eHNHko=
+
+Name: res/drawable/btn_transparent.xml
+SHA1-Digest: 5fSiGw8JOfEO0tVYAoUKbJsmtlg=
+
+Name: res/layout/bank_card_item.xml
+SHA1-Digest: SWG4McqGKc653Da+p0VQSVfywlw=
+
+Name: res/drawable-xxhdpi-v4/cmbkb_btn_pressed.9.png
+SHA1-Digest: M0jXMqHD3JxGgF+k63M9v3rLctI=
+
+Name: res/drawable-xxhdpi-v4/question_mark_pressed.png
+SHA1-Digest: VEil1k3mBfe40JQVzIspPAHNQCk=
+
+Name: res/drawable-xxhdpi-v4/up_bg.png
+SHA1-Digest: t+/fxKhgeGbfj+8gII35gPAdL6I=
+
+Name: res/drawable-xxhdpi-v4/bank_card_bg_gold.png
+SHA1-Digest: MWZcL+XddDE7Vbq7FQdOlZeo76Y=
+
+Name: res/drawable-xxhdpi-v4/btn_round_add.png
+SHA1-Digest: 5RCJ074mroGSRoQ+7kTEqOo/03A=
+
+Name: res/drawable-xxhdpi-v4/logo_bank_default.png
+SHA1-Digest: jj+1KSkow7V0aAJ9wXyo0fXMV0s=
+
+Name: res/drawable-xxhdpi-v4/cmbkb_bg.xml
+SHA1-Digest: GESjn39w2BWnkx6dbero1jl76eA=
+
+Name: res/animator/fragment_slide_right_exit.xml
+SHA1-Digest: 3V2WO1nD1bcXJoegnfgFvzcbvY8=
+
+Name: res/layout/sptc_fragment_demo.xml
+SHA1-Digest: aDAh4i2gL5C9kG3hqZrgWfXsCXU=
+
+Name: res/drawable/cmbkb_shift_normal.png
+SHA1-Digest: 9fGmLq2+qgChoDa8ZeW6kmCUYaw=
+
+Name: res/drawable/bank_card_bg_silver.png
+SHA1-Digest: 8qJ0SDpCvTUSopM2G1ade8pZ4lk=
+
+Name: res/drawable/cmbkb_bg.9.png
+SHA1-Digest: QRFXQL21DAT8x4RMLd4KrA6vZz4=
+
+Name: res/drawable-xxhdpi-v4/nfc_phone.png
+SHA1-Digest: Kup4HDiM9mGq/tmH2JAgWb8RiIU=
+
+Name: res/drawable-xxhdpi-v4/card_recharge_split.9.png
+SHA1-Digest: /rLTUJQCgXtvssKMl2nLKUpDOkA=
+
+Name: res/drawable-xxhdpi-v4/action_bar_bg_light.9.png
+SHA1-Digest: G+wl4dBAkIYA5L8Hg8eKdz25aaY=
+
+Name: res/drawable-xxhdpi-v4/cmbkb_backspace_icon.png
+SHA1-Digest: Z7CVH87mOO+iB6dsBKPWqNA7A/w=
+
+Name: res/drawable/cmbkb_backspace_icon.png
+SHA1-Digest: UtjArar10YFJGPU75iVKMRm1Gkw=
+
+Name: res/drawable/card_list_bg_zyt.xml
+SHA1-Digest: 5Edc/6aZiv7q9yILI2B44NtL1mA=
+
+Name: res/drawable-xxhdpi-v4/btn_transparent_normal.9.png
+SHA1-Digest: fBjDLOTQR6tntCKGanC0wWcriFQ=
+
+Name: res/drawable/btn_round_back_selector.xml
+SHA1-Digest: 6AT1Rb1rk/eZEuYfvl6oZVBK4k8=
+
+Name: res/layout/card_list_local_fragment.xml
+SHA1-Digest: 9tBEDyi4UKCXqVxB7A5NxpJauAM=
+
+Name: res/color/card_list_content_selector.xml
+SHA1-Digest: X8jCpFl+iifRdSmIQSjLYk1vnKA=
+
+Name: res/drawable/btn_question_mark.xml
+SHA1-Digest: VkmRSCwHjJno/8DME7dmTgi0mXs=
+
+Name: res/drawable/cmbkb_btn_normal.9.png
+SHA1-Digest: XoI3Dbbg0bQqzImwjrdUsBSRlqI=
+
+Name: res/drawable/list_item_bg.xml
+SHA1-Digest: PI8jhz1OPaZ2j5kJS7ULxJOZkgA=
+
+Name: res/layout/tab_view.xml
+SHA1-Digest: sG51dTUw/9GVXNq2tIMA+qp6Rx8=
+
+Name: res/drawable/card_detail_grid_item.xml
+SHA1-Digest: hzABsZqcbe+JowXQEo4TeuHFd1Q=
+
+Name: rx/android/view/AutoValue_OnClickEvent.java
+SHA1-Digest: ch9DqUHJEUnjRRb05/2+drQtaBw=
+
+Name: res/drawable/cmbkb_btn_keyboard_key.xml
+SHA1-Digest: TlVa6brZHOxn3HI06teYe5J/ffY=
+
+Name: res/layout/card_detail_qa_fragment.xml
+SHA1-Digest: KQOq0JKzSdLOPYAoFoviBuQhQEc=
+
+Name: res/menu/actionbar_immersion_card_detail.xml
+SHA1-Digest: Md4LlV6yq/NHuCJBVuIExBaTZ64=
+
+Name: res/drawable-xxhdpi-v4/num_3.png
+SHA1-Digest: uQKbaGKc8DV3UeVDhIgnMVAPcpw=
+
+Name: res/drawable-xxhdpi-v4/ic_menu_add_normal.png
+SHA1-Digest: s6F0ouftHajv6YjYsiAVDqblKWg=
+
+Name: res/drawable-xxhdpi-v4/safe_keyboard_bar_shield.png
+SHA1-Digest: SuPsKkpmWccxIcEJjvFQhvMjpBM=
+
+Name: assets/fonts/miui_digit_bold.ttf
+SHA1-Digest: s9dDWQfG+Z8PJcicQOXBl05+Qmw=
+
+Name: res/xml/cmbkb_number_with_change.xml
+SHA1-Digest: FrdR6vstmHFWNbM7/paJPvps/gQ=
+
+Name: res/drawable-xxhdpi-v4/arrow_right_light_normal.png
+SHA1-Digest: YyHUGEhxmhH5UAZl020Hn33b98s=
+
+Name: res/drawable-xxhdpi-v4/bankcard_edit_clear_btn_on.png
+SHA1-Digest: vkj0m5T3auE7UqIutZ89mCQ7tR4=
+
+Name: res/layout/app_list_fragment.xml
+SHA1-Digest: +SaHRR+oEYKgMzB9DdlgpYKdpBw=
+
+Name: res/drawable-xxhdpi-v4/issued_trans_card_list_back.png
+SHA1-Digest: drcXbDzgJqj/YMDLAbzOuuCWS+c=
+
+Name: res/drawable-xxhdpi-v4/btn_location.9.png
+SHA1-Digest: uwVSYyuPDxaCdxoKjJOE2UTOESg=
+
+Name: res/drawable/cmbkb_key_delete_normal.png
+SHA1-Digest: NedsWInNrqLTtHYylDhDo0DUFH8=
+
+Name: res/drawable-xxhdpi-v4/list_item_bg_pressed.9.png
+SHA1-Digest: mtjEHkBNHtXmyJh6aZPRx2tvBDc=
+
+Name: res/xml/cmbkb_number_with_x.xml
+SHA1-Digest: azmIXZCqzY+iVh5KT+Qe3ZVYVFI=
+
+Name: res/drawable-xxhdpi-v4/num_8.png
+SHA1-Digest: uwBheNUpecrG8E3NU3vhVrME5s8=
+
+Name: res/drawable-xxhdpi-v4/up_title_bg.png
+SHA1-Digest: 8OzY+C5jA4OisNPkhUmRO4CXrpY=
+
+Name: res/drawable/progress_horizontal.xml
+SHA1-Digest: C1m5LBb/I5jqBlz5KbLTGD8vmo8=
+
+Name: res/drawable/cmbkb_shift_actived.png
+SHA1-Digest: GpfD51ci/1UUsbD5PzW9elHi7OA=
+
+Name: res/layout/card_list_item.xml
+SHA1-Digest: GQ2bcvY7kh0PnEVg7xAx4jfjg0Q=
+
+Name: res/layout/bank_fragment_demo.xml
+SHA1-Digest: xTYT7ysWYVt8TQrYKeTNKAXRYgw=
+
+Name: res/drawable-xxhdpi-v4/icon_qa.png
+SHA1-Digest: GNj2gm/bIcJweAUbgKf9MExqtBo=
+
+Name: res/layout/location_spinner_item.xml
+SHA1-Digest: 8SLvpQ9ZxT95nNnHG/qF7AvESQc=
+
+Name: res/layout/app_item.xml
+SHA1-Digest: /rJvwhjOFWlwFzkL80Xy7VduIHE=
+
+Name: res/layout/bind_bank_card_finished_fragment.xml
+SHA1-Digest: iEKpI5qYVKLpgJWbdOxGshzdRso=
+
+Name: res/layout/issued_trans_card_list_item.xml
+SHA1-Digest: NPDprOrzVJD3O/xSNKhxCUO4G8c=
+
+Name: res/drawable-xxhdpi-v4/action_bar_location.9.png
+SHA1-Digest: kSAxvQwSH0Z8QruwFDx6lhgTEVQ=
+
+Name: res/layout/card_detail_more_item.xml
+SHA1-Digest: qPPlEG3uXwDxXBF5ugmKzLY0Qbc=
+
+Name: res/animator/fragment_slide_left_exit.xml
+SHA1-Digest: F8TCG+JScTf1AoOJMPqbVFVlcvs=
+
+Name: resources.arsc
+SHA1-Digest: yj72rAsXFinrKetNlywWLuh0kqg=
+
+Name: res/drawable-xxhdpi-v4/logo_bank_xingye.png
+SHA1-Digest: 9SJeHCuaPloWPUFj8+tBs4yDqCM=
+
+Name: res/drawable-xxhdpi-v4/finger_pointer7.png
+SHA1-Digest: mLzBZfZpIBCkNBYqr+aHaCToges=
+
+Name: res/drawable-xxhdpi-v4/num_1.png
+SHA1-Digest: LEXvIz39knCAfTf190hZ7gWZIaA=
+
+Name: AndroidManifest.xml
+SHA1-Digest: k9fIbCJ/MbageQpQBD0XTa9GSGs=
+
+Name: res/drawable/safe_keyboard_bar_bg.xml
+SHA1-Digest: cZc/+Q97tJa5RpgU+rxF7ZQXy4U=
+
+Name: res/drawable/edit_text_bg.xml
+SHA1-Digest: dvQAf62gC+xAEVr8wHrxiFcG6/s=
+
+Name: res/drawable-xxhdpi-v4/arrow_right_dark_normal.png
+SHA1-Digest: hjRsMrw1pIZsGlbXwx72FRQY7Tk=
+
+Name: res/menu/actionbar_immersion_unsolved_record.xml
+SHA1-Digest: NmHY12nc2ym57rEI0mwTfEW2m4I=
+
+Name: res/xml/cmbkb_qwerty.xml
+SHA1-Digest: hbWPgpwGY6A9ELVfl87nsbpjB1M=
+
+Name: res/drawable/action_bar_back_light.xml
+SHA1-Digest: YafEhrtuO7+1F3XPFajDwvUiCkc=
+
+Name: res/drawable-xxhdpi-v4/ic_touch_confirm.png
+SHA1-Digest: xEq6qByjXE5UQD9zTgkZ1Gg1XIQ=
+
+Name: rx/android/view/AutoValue_OnCheckedChangeEvent.java
+SHA1-Digest: c1mwvqeLxDTm/NQ7dsEAc0uaoFI=
+
+Name: res/layout/result_fragment.xml
+SHA1-Digest: 2eKyhty95GBKaat58gMprYMCVLQ=
+
+Name: res/drawable-xxhdpi-v4/cmbkb_btn_normal.xml
+SHA1-Digest: q+Q8AV4UFpcv/8qgKD2UoOVCdUA=
+
+Name: res/drawable/ic_menu_add_selector.xml
+SHA1-Digest: oZcR6ZnhA1ieRgOxxyB8iG2xl9c=
+
+Name: res/xml/input_extras_can_input_x.xml
+SHA1-Digest: zRrgEwL9fpOYPYwVfBVUOt3E2Ps=
+
+Name: res/drawable-xxhdpi-v4/ic_tap_pos.png
+SHA1-Digest: bFgxmtrgeh93WNfnj2j/lGxyhiU=
+
+Name: res/drawable/arrow_right_light.xml
+SHA1-Digest: 5Fumt24DoPoOGjA095WI3B7UVIw=
+
+Name: res/drawable/card_recharge_item.xml
+SHA1-Digest: n3yi+SeWE0GvRW77GucNuubAWCQ=
+
+Name: res/drawable/nfc_circle.xml
+SHA1-Digest: kZq4nTeCE9u16zyRBtb9DP1ReEA=
+
+Name: rx/android/widget/AutoValue_OnItemClickEvent.java
+SHA1-Digest: hQle3ynrrLROqbcrFzc1E537nJc=
+
+Name: res/animator/fragment_slide_right_enter.xml
+SHA1-Digest: 3li+d2OkhEeVhJ5Gq4xS9up5Qcw=
+
+Name: res/drawable/card_detail_recharge_bg_shape_selector.xml
+SHA1-Digest: 9JmMtQoS0/A6DM48ZqzzH7pXWsY=
+
+Name: res/drawable/safe_keyboard_key_n.xml
+SHA1-Digest: oV1cimu0eozGQkWsVnidIFxHKHc=
+
+Name: res/drawable-xxhdpi-v4/card_list_bg_zyt_n.png
+SHA1-Digest: fiYGFFi6rWdTg415RexPkrIta9o=
+
+Name: res/layout/set_default_card_list_item.xml
+SHA1-Digest: JSoBojZWURtEa+4xBD9Yln9BWaY=
+
+Name: res/drawable-xxhdpi-v4/card_intro_lnt_bg.png
+SHA1-Digest: vDQ3gkW17t+FJadym+XCwBeW0nw=
+
+Name: res/menu/actionbar_immersion_bankcard_action.xml
+SHA1-Digest: l1UsYbALv4ergOsPZSN9+i8pfWQ=
+
+Name: res/drawable-xxhdpi-v4/ic_subway.png
+SHA1-Digest: OZBWyeJdqad4PhsVmun7gqg1HO8=
+
+Name: res/layout/card_detail_unsolved_record_item.xml
+SHA1-Digest: 0YdNNQ+z/VS/XznpXEqwiPhFUz8=
+
+Name: res/xml/cmbkb_number_symbols.xml
+SHA1-Digest: Ii+XZWcKXMHDURJMMDd0mgAQil8=
+
+Name: res/drawable-xxhdpi-v4/bankcard_scan_card_camera.png
+SHA1-Digest: Yj3n715J57CSVJRgUbf6r1SVdO0=
+
+Name: assets/fonts/miui_digit_light.ttf
+SHA1-Digest: eoYR1p+ufIiG6KthcsVM3oORquo=
+
+Name: res/drawable-xxhdpi-v4/finger_pointer10.png
+SHA1-Digest: w4j5Hkvm2RVyFZdb9Jt+GWklNGs=
+
+Name: res/drawable-xxhdpi-v4/up_done.png
+SHA1-Digest: 0Zu/00QYzdMsN3xLBj+6E9SDp7U=
+
+Name: res/drawable-xxhdpi-v4/ic_transport_default.png
+SHA1-Digest: N45nrlAypieOmvGBYZqSoogfaU8=
+
+Name: res/drawable-xxhdpi-v4/action_bar_menu_new.png
+SHA1-Digest: kYaYl7Wbz16y92s8mQXLBNZgjx0=
+
+Name: res/drawable/cmbkb_backspace_dark_icon.png
+SHA1-Digest: EPmopvzpp2Od63aMQeM0M+sOWfI=
+
+Name: res/drawable-xxhdpi-v4/arrow_up_dark_normal.png
+SHA1-Digest: Zx3m2BhpSSlJiD7k1yAgrRhuqgI=
+
+Name: res/drawable-xxhdpi-v4/cmbkb_logo.png
+SHA1-Digest: h02bAUYRqLmJlSXHBtSsGxHd+fg=
+
+Name: res/drawable-xxhdpi-v4/card_list_bg_zyt_p.png
+SHA1-Digest: X/s3ejgw8hmzTGzbS728H5jYXDk=
+
+Name: res/menu/actionbar_immersion_zytcard_action.xml
+SHA1-Digest: zL+JLrXEkJiobKhwlbtz8f9+TUA=
+
+Name: code.properties
+SHA1-Digest: iAY4l0yD6khLuKUy5RH6xGOMxoc=
+
+Name: business.xml
+SHA1-Digest: IxGPxew4Mia3QFJTzrSNitqcqew=
+
+Name: res/drawable-xxhdpi-v4/finger_pointer8.png
+SHA1-Digest: ZIwt/tmMQMhGL+IdsHoD3V8O2vg=
+
+Name: res/drawable-xxhdpi-v4/cmbkb_key_delete_normal.png
+SHA1-Digest: r6UHFa37JZUlO7MVV4+b0Xvo/UM=
+
+Name: res/drawable-xxhdpi-v4/recharge_success.png
+SHA1-Digest: eBMtTJ97G5Ny7n1iJoBrhsq/nLA=
+
+Name: res/layout/input_phone_num_fragment.xml
+SHA1-Digest: uh/HyM3/hMmhnJBZRrKltF4XZKE=
+
+Name: res/drawable-xxhdpi-v4/card_recharge_bg.9.png
+SHA1-Digest: zAioe1QRV8asqAR8J2/91NDBoSs=
+
+Name: res/drawable-xxhdpi-v4/finger_pointer9.png
+SHA1-Digest: QqqceY/Qf3/kYxo1TKw0joq59TE=
+
+Name: res/anim/cmbkb_push_bottom_out.xml
+SHA1-Digest: Oc76HgDsUlqKlXBR8Ur45bqY6Aw=
+
+Name: res/layout/bank_card_list_fragment.xml
+SHA1-Digest: Rw5vwgyLB678Fh8xcgDgk9nvgbA=
+
+Name: res/drawable-hdpi-v4/cmbkb_list_separator.png
+SHA1-Digest: /XRZdSvIDcI5Ntl0TR1vYC9uLU8=
+
+Name: res/layout/nfc_recharge_warnning.xml
+SHA1-Digest: IJcskI7iM0mUHXEH1osBBRQp+ls=
+
+Name: res/drawable-xxhdpi-v4/logo_sptc.png
+SHA1-Digest: ofM6GGHomkVZMQ45C+JIw9Nm2VA=
+
+Name: res/drawable-xxhdpi-v4/finger_pointer3.png
+SHA1-Digest: iesuwXJSXQEFeLocJWs1HnGxs3k=
+
+Name: res/drawable-xxhdpi-v4/ic_fingerpoint.png
+SHA1-Digest: 1GrTNH4XKCAV+TkKdFzvzwC3nhc=
+
+Name: res/layout/switch_card_fragment.xml
+SHA1-Digest: tYkWzgU/fFdysXMQQt9vrpV0UEY=
+
+Name: res/drawable-xxhdpi-v4/localize.png
+SHA1-Digest: 4Az7KnjgRnwU7btkip+ra57l0fU=
+
+Name: res/drawable-xxhdpi-v4/transparent_layer.png
+SHA1-Digest: 8MKMK98IMFs091FjBbX32M4pA2s=
+
+Name: res/color/retry_button.xml
+SHA1-Digest: W66FeygZuHARmhptY8IHB2WONpI=
+
+Name: res/layout/keyboard_container.xml
+SHA1-Digest: E5+uDihJWH64Xo/g7s5cZCTC6Q4=
+
+Name: res/drawable-xxhdpi-v4/num_5.png
+SHA1-Digest: yrwDPh5Onm/aVnC6QTIMb8NMBmQ=
+
+Name: res/drawable-xxhdpi-v4/bank_card_bg_silver.png
+SHA1-Digest: LHzpq+zG4VKWjlhHhKCZ97XbomU=
+
+Name: res/drawable-xxhdpi-v4/card_detail_bg.png
+SHA1-Digest: qXjTMzm+uTdwnIK5HVw8L7MQpbs=
+
+Name: res/drawable-xxhdpi-v4/action_bar_back_light_normal.png
+SHA1-Digest: vKfccnpSBk6aKXR1xjaz6bIYFoo=
+
+Name: res/drawable-xxhdpi-v4/card_list_bg_cup_pressed.png
+SHA1-Digest: 3MF2OrI1K2TM5tyqf8jYVGUGDGA=
+
+Name: res/drawable-xxhdpi-v4/card_bg_intro_action_bar.9.png
+SHA1-Digest: pWDT5lOm4SHQh6Af2Eglroh1sLg=
+
+Name: res/layout/no_card_dialog_view.xml
+SHA1-Digest: KFWLipgrplftML0sNojb+DfEIwM=
+
+Name: res/layout/card_recharge_fragment.xml
+SHA1-Digest: OAvdCeaKW6fip3cRT3jf9jMgqfA=
+
+Name: res/layout/set_default_card_fragment.xml
+SHA1-Digest: 5re454ZDnRe2wNrHhNqLP7T178Y=
+
+Name: res/layout/card_detail_fragment.xml
+SHA1-Digest: mhlpuDrvzcMkrWXY+GWlG7pI4vA=
+
+Name: res/drawable-xxhdpi-v4/num_7.png
+SHA1-Digest: 3F/Fp5z9NgHBSapYnAmPwCjMWMo=
+
+Name: res/drawable-xxhdpi-v4/action_bar_back_dark.png
+SHA1-Digest: xzTAW12hfBHfLcXBQvHLR37JAQo=
+
+Name: res/drawable-xxhdpi-v4/nfc_card.png
+SHA1-Digest: iZghUn6uDfQaCxhCSTqec7saJgo=
+
+Name: res/menu/actionbar_immersion_card_purchase_record.xml
+SHA1-Digest: jY1IKpFBTCPeeHegu4oNRR5ttqw=
+
+Name: res/drawable-xxhdpi-v4/finger_pointer1.png
+SHA1-Digest: xcI9c6tT/gkg355CpLN3BSsT4To=
+
+Name: res/drawable-xxhdpi-v4/quick_pass_alert.png
+SHA1-Digest: Fs0m/f1VuE16/WN0hJFDcITQxco=
+
+Name: res/anim/cmbkb_push_bottom_in.xml
+SHA1-Digest: h0r4jwGEdWAzf1TKGZJGtK5XPB8=
+
+Name: res/drawable-xxhdpi-v4/btn_round_add_pressed.png
+SHA1-Digest: v/EkGDBLuXLmH0f0sjSOwhy5jb8=
+
+Name: res/drawable-xxhdpi-v4/btn_round_back_pressed.png
+SHA1-Digest: C9u9g8fr08wwzU21nI1DQ5Bo+lk=
+
+Name: res/layout/card_view_item.xml
+SHA1-Digest: b+Oc39bLxAP3jYAsFQKgG7Onf3g=
+
+Name: res/layout/issued_trans_card_list_fragment.xml
+SHA1-Digest: T30qgHO2YggjXeJUdjaXbFa1lkk=
+
+Name: res/layout/card_intro_fragment.xml
+SHA1-Digest: L1HeXQdNpTqkAvs4GUFUdFCIieE=
+
+Name: res/layout/card_issue_list_group_item.xml
+SHA1-Digest: j5wPwWPPaUylw2EGJfxAFm+a++Q=
+
+Name: res/drawable/cmbkb_logo.png
+SHA1-Digest: MPdl6GgmVpQWEIcNWjmPheWcre8=
+
+Name: res/drawable/cmbkb_shift_dark_normal.png
+SHA1-Digest: 589pvCPCK8tuKIs3Gv3Ppcs7kOs=
+
+Name: res/drawable-xxhdpi-v4/card_recharge_grid_item_pressed.9.png
+SHA1-Digest: ufvaojc1qSltgd1QMT+BlcWu4V0=
+
+Name: res/drawable-xxhdpi-v4/ic_menu_add_pressed.png
+SHA1-Digest: TLzek848vpY/wOVVfUThBffHnUk=
+
+Name: res/drawable-xxhdpi-v4/arrow_right_dark_disabled.png
+SHA1-Digest: f0ZtQvdFFnuB2J/MLZvzw85alO0=
+
+Name: res/drawable-xxhdpi-v4/ic_more.png
+SHA1-Digest: WUHrgHQ+EnoMqM7Vc0qB7OnZDow=
+
+Name: rx/android/widget/AutoValue_OnListViewScrollEvent.java
+SHA1-Digest: diu0ay9BNRXcod36FmEFtqnzIBU=
+
+Name: res/layout/transpotation_trade_alert_fragment.xml
+SHA1-Digest: LZvB1O4LMcbqoc5yQeN6XSTBxEM=
+
+Name: res/drawable/safe_keyboard_key_p.xml
+SHA1-Digest: IQbqvO1Kh/bMwaYHONPezzhRP/A=
+
+Name: res/layout/bank_card_input_number.xml
+SHA1-Digest: /XpEXY+cQuiFVmrw5k6mZc5YzyY=
+
+Name: res/anim/fade_in.xml
+SHA1-Digest: y0cyDA4W55aibXQSJ6uPSsLPfeU=
+
+Name: res/layout/trans_element_fragment.xml
+SHA1-Digest: 9AjstD3bRURkV7D1lU1dpiwN2fU=
+

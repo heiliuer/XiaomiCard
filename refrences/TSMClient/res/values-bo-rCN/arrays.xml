@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="card_recharge_array_first_time_amounts">
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+    </string-array>
+    <string-array name="card_recharge_array_amounts">
+        <item>100</item>
+        <item>150</item>
+        <item>གཞན་དག</item>
+    </string-array>
+    <string-array name="card_detail_more_items">
+        <item>ཉོ་ཚོང་ཟིན་ཐོ།</item>
+        <item>རྒྱུན་མཐོང་གནད་དོན།</item>
+    </string-array>
+    <string-array name="bank_card_action_not_approved">
+        <item>རེ་ཞུ་འདི་ཟིན་ཐོ་སུབ་པ།</item>
+        <item>ཡང་བསྐྱར་རེ་ཞུ།</item>
+    </string-array>
+    <string-array name="bank_card_protocols">
+        <item>དངུལ་འབྲེལ་ཞབས་ཞུའི་སྤྱོད་མཁན་གྱི་གྲོས་མཐུན།</item>
+        <item>དངུལ་ཁང་ཞབས་ཞུའི་སྤྱོད་མཁན་གྱི་གྲོས་མཐུན།</item>
+    </string-array>
+</resources>

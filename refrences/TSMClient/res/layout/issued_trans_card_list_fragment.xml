@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/issued_trans_card_list_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/issued_trans_card_list_rv_actionbar" android:layout_width="fill_parent" android:layout_height="65.0dip">
+        <ImageView android:id="@id/issued_trans_card_list_iv_actionbar_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/issued_trans_card_list_back" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView android:id="@id/issued_trans_card_list_rv_content" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/issued_trans_card_list_margin_horizontal" android:layout_marginTop="@dimen/issued_trans_card_list_margin_top" android:layout_marginRight="@dimen/issued_trans_card_list_margin_horizontal" android:layout_marginBottom="@dimen/issued_trans_card_list_margin_bottom" android:layout_below="@id/issued_trans_card_list_rv_actionbar" />
+    <ImageView android:id="@id/issued_trans_card_list_iv_actionbar_add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:src="@drawable/ic_menu_add_selector" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginEnd="20.0dip" />
+</RelativeLayout>

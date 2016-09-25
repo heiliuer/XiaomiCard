@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="ring" android:useLevel="false" android:innerRadius="@dimen/nfc_circle_inner_radius" android:thickness="@dimen/nfc_circle_thickness"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#ffffffff" />
+    <size android:height="@dimen/nfc_circle_size" android:width="@dimen/nfc_circle_size" />
+</shape>

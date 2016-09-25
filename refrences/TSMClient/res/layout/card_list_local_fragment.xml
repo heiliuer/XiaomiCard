@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/card_list_fl_card_localized" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/card_list_iv_card_pic" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/card_pic_beijing" />
+        <TextView android:layout_gravity="start|bottom|center" android:id="@id/card_list_tv_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/card_list_user_location" />
+        <TextView android:layout_gravity="end|bottom|center" android:id="@id/card_list_tv_issue_recharge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/card_list_install_now" />
+    </FrameLayout>
+    <TextView android:id="@id/card_list_tv_other_supported_city" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/card_list_other_supported_cities" android:layout_below="@id/card_list_fl_card_localized" />
+    <ListView android:id="@android:id/list" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/card_list_margin_horizontal" android:layout_marginTop="@dimen/card_list_margin_top" android:layout_marginRight="@dimen/card_list_margin_horizontal" android:layout_marginBottom="@dimen/card_list_margin_top" android:dividerHeight="@dimen/card_list_divider_height" android:layout_below="@id/card_list_tv_other_supported_city" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/card_list_ll_error" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/card_recharge_ic_error" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/list_ic_empty" />
+        <TextView android:id="@id/card_rechage_tv_error_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/service_unavailable" style="@style/TextAppearance.Content.Light" />
+    </LinearLayout>
+</RelativeLayout>

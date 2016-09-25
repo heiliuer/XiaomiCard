@@ -1,0 +1,28 @@
+[
+  {
+    "affiliatedTaskColor": -1644826,
+    "affiliatedTaskId": 1431,
+    "baseIntent": {
+      "mAction": "android.intent.action.MAIN",
+      "mCategories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "mComponent": {
+        "mClass": "com.heiliuer.xiaomi_card.ActMain",
+        "mPackage": "com.heiliuer.xiaomi_card"
+      },
+      "mContentUserHint": -2,
+      "mFlags": 268435456
+    },
+    "firstActiveTime": 1474712904654,
+    "id": -1,
+    "lastActiveTime": 1474712906390,
+    "numActivities": 0,
+    "persistentId": 1431,
+    "stackId": 205,
+    "taskDescription": {
+      "mColorPrimary": -1644826
+    },
+    "userId": 0
+  }
+]

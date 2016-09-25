@@ -1,0 +1,31 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: TSMClient-copy.apk
+compressionType: false
+doNotCompress:
+- arsc
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '17'
+  targetSdkVersion: '23'
+sharedLibrary: false
+unknownFiles:
+  business.xml: '8'
+  code.properties: '8'
+  message.xml: '8'
+  rx/android/view/AutoValue_OnCheckedChangeEvent.java: '8'
+  rx/android/view/AutoValue_OnClickEvent.java: '8'
+  rx/android/widget/AutoValue_OnItemClickEvent.java: '8'
+  rx/android/widget/AutoValue_OnListViewScrollEvent.java: '8'
+  rx/android/widget/AutoValue_OnTextChangeEvent.java: '8'
+usesFramework:
+  ids:
+  - 1
+  - 16
+  tag: null
+version: 2.2.0
+versionInfo:
+  versionCode: '18'
+  versionName: 2.08.31.1

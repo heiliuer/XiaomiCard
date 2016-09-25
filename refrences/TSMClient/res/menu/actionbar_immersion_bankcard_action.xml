@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_bank_card_set_default" android:title="@string/bank_card_action_set_default_card" />
+    <item android:id="@id/menu_bank_card_delete" android:title="@string/bank_card_action_delete_card" />
+</menu>

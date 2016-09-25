@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="phone_num_length">11</integer>
+    <integer name="sms_code_length">6</integer>
+    <integer name="bank_card_num_max_length">23</integer>
+    <integer name="bank_card_id_length">21</integer>
+    <integer name="bank_card_pin_length">6</integer>
+    <integer name="bank_card_cvn2_length">3</integer>
+    <integer name="bank_card_expire_date_length">5</integer>
+    <integer name="card_recharge_grid_column_num">3</integer>
+    <integer name="keyboard_keycode_0">7</integer>
+    <integer name="keyboard_keycode_1">8</integer>
+    <integer name="keyboard_keycode_2">9</integer>
+    <integer name="keyboard_keycode_3">10</integer>
+    <integer name="keyboard_keycode_4">11</integer>
+    <integer name="keyboard_keycode_5">12</integer>
+    <integer name="keyboard_keycode_6">13</integer>
+    <integer name="keyboard_keycode_7">14</integer>
+    <integer name="keyboard_keycode_8">15</integer>
+    <integer name="keyboard_keycode_9">16</integer>
+    <integer name="keyboard_keycode_x">52</integer>
+    <integer name="keyboard_keycode_del">67</integer>
+</resources>

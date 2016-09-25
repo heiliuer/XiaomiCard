@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/card_view_item" android:background="@drawable/card_shadow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/card_recharge_grid_margin_bottom" android:layout_marginBottom="@dimen/card_recharge_grid_margin_bottom" android:foreground="@drawable/card_high_light" android:foregroundGravity="center">
+        <com.miui.tsmclient.ui.widget.FlashView android:layout_gravity="center" android:id="@id/card_content" android:padding="@dimen/card_list_logo_margin_top" android:layout_width="@dimen/trade_alert_card_image_width" android:layout_height="@dimen/trade_alert_card_image_height">
+            <TextView android:textSize="@dimen/card_intro_title_text_size" android:id="@id/card_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            <TextView android:textSize="16.0sp" android:textColor="@android:color/black" android:id="@id/card_type" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+            <TextView android:textSize="@dimen/tsm_text_size_content_medium" android:textColor="@color/white" android:id="@id/card_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+        </com.miui.tsmclient.ui.widget.FlashView>
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="@dimen/nfc_circle_inner_radius" android:layout_height="@dimen/nfc_circle_inner_radius" android:src="@drawable/recharge_success" />
+        <TextView android:textSize="@dimen/tsm_text_size_content_large" android:textColor="@color/black_alpha_70" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/actionbar_immersion_ic_new_margin_right" android:text="@string/bank_card_open_success" />
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <TextView android:textSize="@dimen/tsm_text_size_content_medium" android:textColor="@color/safe_keyboard_title_color" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/tsm_content_margin_default" android:layout_marginTop="@dimen/card_recharge_remind_info_margin_top" android:layout_marginRight="@dimen/tsm_content_margin_default" android:layout_marginBottom="@dimen/tsm_content_margin_default" android:text="@string/bank_card_open_success_password_hint" />
+    <Button android:textSize="@dimen/tsm_text_size_content_large" android:gravity="center" android:id="@id/button_finished" android:layout_marginLeft="@dimen/tsm_content_margin_default" android:layout_marginRight="@dimen/tsm_content_margin_default" android:layout_marginBottom="@dimen/tsm_content_margin_default" android:text="@string/have_finished" style="@style/Widget.Button.Warning" />
+</LinearLayout>

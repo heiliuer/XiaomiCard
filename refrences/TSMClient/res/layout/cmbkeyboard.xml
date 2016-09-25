@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/cmbkb_contentLayout" android:background="@drawable/cmbkb_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/cmbkb_safeSign" android:layout_width="wrap_content" android:layout_height="37.0dip" android:layout_centerInParent="true">
+                    <ImageView android:gravity="center" android:id="@id/cmbkb_ivNote" android:background="@drawable/cmbkb_logo" android:layout_width="16.0dip" android:layout_height="16.0dip" android:scaleType="fitCenter" />
+                    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="11.0sp" android:textColor="@color/cmbkb_label_text" android:gravity="center_vertical" android:id="@id/cmbkb_tvNote" android:background="@color/cmbkb_transparent" android:paddingLeft="5.0dip" android:focusable="false" android:visibility="visible" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cmbkb_caption" />
+                </LinearLayout>
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="20.0sp" android:textColor="@color/cmbkb_white" android:gravity="center_vertical" android:id="@id/cmbkb_tvComplete" android:background="@color/cmbkb_transparent" android:paddingLeft="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="18.0dip" android:text="@string/cmbkb_finish" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <TextView android:gravity="center" android:id="@id/cmbkb_tvLabel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cmbkb_safe_input" />
+            <EditText android:id="@id/edit_cmbinput" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/cmbkb_please_input" android:singleLine="true" />
+            <View android:background="@drawable/cmbkb_list_separator" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <android.inputmethodservice.KeyboardView android:id="@id/cmbkeyboard_view" android:background="@drawable/cmbkb_bg" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:shadowRadius="0.0" android:keyBackground="@drawable/cmbkb_btn_keyboard_key" android:keyTextSize="20.0sp" android:keyTextColor="@color/cmbkb_number_text" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

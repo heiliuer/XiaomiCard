@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.tsmclient.ui.UnsolvedRecordItem android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.ListView.Item.DoubleLine"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/card_detail_trade_amount" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" style="@style/TextAppearance.List.Primary" />
+    <LinearLayout android:gravity="center|right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/red" android:id="@id/card_detail_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/card_detail_purchase_item_margin_vertical" android:text="@string/card_detail_state_waiting_recharge" android:singleLine="true" style="@style/TextAppearance.List.Primary" />
+        <TextView android:id="@id/card_detail_purchase_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/card_detail_purchase_item_margin_vertical" android:layout_marginTop="@dimen/card_detail_purchase_item_margin_horizontal" android:singleLine="true" style="@style/TextAppearance.List.Secondary" />
+    </LinearLayout>
+    <ImageView android:id="@id/card_detail_ic_arrow" android:background="@drawable/arrow_right_dark" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.miui.tsmclient.ui.UnsolvedRecordItem>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.miui.tsmclient" platformBuildVersionCode="23" platformBuildVersionName="6.0.1">
+    <permission android:name="cn.com.fmsh.nfcos.client.service.xm.permission.notice"/>
+    <uses-permission android:name="cn.com.fmsh.nfcos.client.service.xm.permission.notice"/>
+    <uses-permission android:name="org.simalliance.openmobileapi.SMARTCARD"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.GRANT_RUNTIME_PERMISSIONS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="miui.cloud.finddevice.AccessFindDevice"/>
+    <uses-permission android:name="miui.cloud.finddevice.ManageFindDevice"/>
+    <uses-permission android:name="com.miui.klo.bugreport.permission.KLO_STARTUP_RECEIVER"/>
+    <uses-permission android:name="com.miui.permission.ACCESS_ESE"/>
+    <uses-permission android:name="com.miui.nfc.permission.HCI_EVENT"/>
+    <application android:label="@string/app_name" android:name=".App">
+        <meta-data android:name="bankcard" android:value="0"/>
+        <meta-data android:name="transcard" android:value="1"/>
+        <uses-library android:name="com.android.nfc_extras" android:required="true"/>
+        <uses-library android:name="org.simalliance.openmobileapi" android:required="true"/>
+        <uses-library android:name="cloud-common.jar"/>
+        <uses-library android:name="android-support-v7-recyclerview.jar"/>
+        <uses-library android:name="android-support-v4.jar"/>
+        <uses-library android:name="volley.jar"/>
+        <uses-library android:name="gson.jar"/>
+        <uses-library android:name="eventbus.jar"/>
+        <uses-library android:name="protobuf.jar"/>
+        <activity android:name=".demo.TerminalDemoActivity"/>
+        <activity android:excludeFromRecents="true" android:label="@string/app_name" android:name=".ui.MainActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Light.Main">
+            <intent-filter>
+                <action android:name="com.miui.tsmclient.action.ENTER_TSMCLIENT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="card" android:scheme="tsmclient"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="tsmclient.miui.com" android:scheme="https"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED"/>
+                <data android:mimeType="application/com.miui.tsmclient"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:label="@string/app_name" android:name=".ui.CardIntroActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Light.HomeAsUp.Transparent">
+            <intent-filter>
+                <action android:name="com.miui.tsmclient.action.ISSUE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:label="@string/app_name" android:name=".ui.CardDetailActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Light.HomeAsUp"/>
+        <activity android:excludeFromRecents="true" android:label="@string/app_name" android:name=".ui.CardIssueListActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Light.Main"/>
+        <activity android:excludeFromRecents="true" android:label="@string/app_name" android:name=".ui.IssuedTransCardListActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Light.NoTitle"/>
+        <activity android:excludeFromRecents="true" android:label="@string/app_name" android:name=".ui.RechargeActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Light.HomeAsUp"/>
+        <activity android:excludeFromRecents="true" android:label="@string/app_name" android:name=".ui.SetDefaultCardActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Light.HomeAsUp"/>
+        <activity android:excludeFromRecents="true" android:label="@string/app_name" android:name=".ui.LntSelectLocationActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Light.HomeAsUp"/>
+        <activity android:excludeFromRecents="true" android:label="@string/app_name" android:name=".ui.CardPurchaseRecordActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Light.HomeAsUp"/>
+        <activity android:excludeFromRecents="true" android:label="@string/app_name" android:name=".ui.WebViewActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Light.HomeAsUp"/>
+        <activity android:excludeFromRecents="true" android:label="@string/bind_phone_title" android:name=".ui.SendSmsActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Light.HomeAsUp"/>
+        <activity android:excludeFromRecents="true" android:label="@string/verify_sms_code" android:name=".ui.VerifyCodeActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Light.HomeAsUp"/>
+        <activity android:excludeFromRecents="true" android:name=".ui.bankcard.BindBankCardFinishedActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Light.HomeAsUp"/>
+        <activity android:excludeFromRecents="true" android:name=".ui.NfcRechargeActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Light.HomeAsUp"/>
+        <activity android:excludeFromRecents="true" android:name=".ui.TSMResultActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Light.NoHomeAsUp"/>
+        <activity android:excludeFromRecents="true" android:name=".ui.bankcard.VerifyBankCardInfoActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Light.HomeAsUp"/>
+        <activity android:excludeFromRecents="true" android:exported="true" android:name=".ui.bankcard.BankCardNumActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Light.HomeAsUp" android:windowSoftInputMode="stateHidden"/>
+        <activity android:excludeFromRecents="true" android:name=".ui.bankcard.BankCardDetailActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Light.HomeAsUp"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleInstance" android:name=".ui.quick.DoubleClickActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Light.Transparent">
+            <intent-filter>
+                <action android:name="com.miui.intent.action.DOUBLE_CLICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="false" android:name="cmb.pb.cmbsafe.CmbService"/>
+        <activity android:excludeFromRecents="true" android:name="cmb.pb.ui.PBKeyboardActivity" android:theme="@style/CmbDialogStyleBottom"/>
+        <service android:name=".MiTsmService">
+            <intent-filter>
+                <action android:name="com.miui.tsmclientsdk.action.MI_TSM_SERVICE"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="cn.com.fmsh.nfcos.client.service.xm.NfcosService4xm">
+            <intent-filter>
+                <action android:name="cn.com.fmsh.nfcos.client.service.xm.NfcosService4xm"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name=".SEInteractionService">
+            <intent-filter>
+                <action android:name="com.miui.action.INIT_ESE"/>
+                <action android:name="com.miui.action.INSTALL_CARD"/>
+                <action android:name="com.miui.action.DELETE_CARD"/>
+                <action android:name="com.miui.action.SYNC_ESE"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="cn.com.lingnanpass.tsm.device.LingnanPasservice">
+            <intent-filter>
+                <action android:name="cn.com.lingnanpass.tsm.device.LingnanPasservice"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name=".NfcStateService">
+            <intent-filter>
+                <action android:name="com.miui.action.QUERY_CARD_STATE"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name=".UpdateCardsService">
+            <intent-filter>
+                <action android:name="com.miui.tsmclient.action.QUERY_CARDS"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="com.miui.tsmclient.provider" android:exported="false" android:name=".database.TSMProvider"/>
+        <receiver android:name=".HciEventReceiver">
+            <intent-filter>
+                <action android:name="com.miui.nfc.action.TRANSACTION"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".NfcStateReceiver">
+            <intent-filter>
+                <action android:name="android.nfc.action.ADAPTER_STATE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

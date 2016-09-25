@@ -1,0 +1,55 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        heiliuer {
+            keyAlias 'heiliuer'
+            keyPassword '110510'
+            storeFile file('F:/Android/安卓签名相关/xingonchan')
+            storePassword '110510'
+        }
+    }
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+    defaultConfig {
+        applicationId "com.heiliuer.xiaomi_card"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 2
+        versionName "2.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.heiliuer
+        }
+    }
+
+    //生成签名apk
+    applicationVariants.all { variant ->
+        if (variant.getName().contains("world")) {
+            variant.buildConfigField "String", "URL_API_PATH", '"http://..."'
+        } else {
+            variant.buildConfigField "String", "URL_API_PATH", '"http://192.168...."'
+        }
+        variant.mergedFlavor.versionName = android.defaultConfig.versionName + "-" + variant.mergedFlavor.versionName;
+
+        variant.outputs.each { output ->
+            if (variant.buildType.name.equals("release")) {
+                def apkName = "刷卡_" + android.defaultConfig.versionName + ".apk";
+                println "已生成签名apk " + "$project.buildDir" + File.separator + apkName;
+                output.outputFile = file("$project.buildDir" + File.separator + apkName)
+            }
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.2.1'
+    compile 'com.android.support:design:23.2.1'
+    // https://mvnrepository.com/artifact/com.google.code.gson/gson
+        compile 'com.google.code.gson:gson:2.7'
+}

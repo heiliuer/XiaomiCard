@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.tsmclient.ui.PurchaseRecordItem android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.ListView.Item.DoubleLine"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/card_detail_purchase_amount_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+        <TextView android:id="@id/card_detail_purchase_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/card_detail_purchase_item_margin_vertical" android:singleLine="true" style="@style/TextAppearance.List.Primary" />
+        <TextView android:textColor="#ff999999" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/spacing_yuan" style="@style/TextAppearance.List.Primary" />
+    </LinearLayout>
+    <TextView android:id="@id/card_detail_purchase_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/card_detail_purchase_item_margin_vertical" android:singleLine="true" android:layout_below="@id/card_detail_purchase_amount_layout" android:layout_alignParentRight="true" style="@style/TextAppearance.List.Secondary" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/card_detail_purchase_amount_layout" android:layout_alignBottom="@id/card_detail_purchase_time" android:layout_alignParentLeft="true">
+        <TextView android:id="@id/card_detail_trade_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/TextAppearance.List.Primary" />
+        <TextView android:id="@id/card_detail_balance" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/TextAppearance.List.Secondary" />
+    </LinearLayout>
+</com.miui.tsmclient.ui.PurchaseRecordItem>

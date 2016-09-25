@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:cmb="http://schemas.android.com/apk/res/com.miui.tsmclient">
+    <LinearLayout android:orientation="vertical" android:id="@id/root_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <EditText android:textColorHint="@color/bank_card_trans_element_hint_color" android:gravity="center_vertical" android:id="@id/up_keyboard" android:background="@null" android:layout_width="fill_parent" android:layout_height="@dimen/bank_card_form_item_height" android:hint="@string/bank_card_pin_hint" android:cursorVisible="false" android:singleLine="true" android:layout_marginStart="@dimen/bank_card_trans_element_margin_content" style="@style/TextAppearance.FormItem.Content" />
+        <EditText android:id="@id/test" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <Button android:id="@id/querypan" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <Button android:id="@id/preparePayApplet" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <Button android:id="@id/enroll" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <Button android:id="@id/pullData" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

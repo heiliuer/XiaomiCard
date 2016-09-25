@@ -1,0 +1,90 @@
+09-23 21:06:53.091 1498-1859/system_process I/InputDispatcher: (fpc) InputDispatcher set sys.domekey.down = 1
+09-23 21:06:53.092 1498-1859/system_process D/BaseMiuiPhoneWindowManager: keyCode:3 down:true 17725170 17725170 policyFlags=2000000 deviceId:7 isScreenOn:false
+09-23 21:06:53.093 1498-1859/system_process D/WindowManager: keyguardActive=true
+09-23 21:06:53.094 1498-1859/system_process I/PowerManagerService: Waking up from sleep (uid 1000)...
+09-23 21:06:53.095 1498-1553/system_process I/DisplayPowerController: Blocking screen on until initial contents have been drawn.
+09-23 21:06:53.095 1498-1553/system_process V/KeyguardServiceDelegate: onScreenTurnedOn(showListener = com.android.server.policy.PhoneWindowManager$2@905c3f1)
+09-23 21:06:53.098 1498-1498/system_process V/KeyguardServiceDelegate: onStartedWakingUp()
+09-23 21:06:53.099 1498-1553/system_process D/AutomaticBrightnessController: setLightSensorEnabled enable
+09-23 21:06:53.111 1498-1553/system_process D/AutomaticBrightnessController: setProximitySensorEnabled enable
+09-23 21:06:53.118 1498-1551/system_process I/DisplayManagerService: Display device changed state: "内置屏幕", ON
+09-23 21:06:53.125 1498-2076/system_process E/native: do suspend false
+09-23 21:06:53.128 1498-2076/system_process D/WifiConfigStore: No blacklist allowed without epno enabled
+09-23 21:06:53.153 1498-1849/system_process W/qti_sensors_hal: processInd: prox data: 0.000000 2989087488.000000 5.000305 SAM TS: 1125486841 HAL TS:34345979047742 elapsedRealtimeNano:34345981418086
+09-23 21:06:53.169 1498-2711/system_process V/KeyguardServiceDelegate: **** SHOWN CALLED ****
+09-23 21:06:53.208 1498-1859/system_process I/InputDispatcher: (fpc) InputDispatcher set sys.domekey.down = 0
+09-23 21:06:53.209 1498-1859/system_process D/BaseMiuiPhoneWindowManager: keyCode:3 down:false 17725290 17725170 policyFlags=22000000 deviceId:7 isScreenOn:true
+09-23 21:06:53.210 1498-1859/system_process D/WindowManager: keyguardActive=true
+09-23 21:06:53.210 1498-1858/system_process I/WindowManager: Ignoring HOME; event canceled.
+09-23 21:06:53.220 1498-1553/system_process I/DisplayPowerController: Unblocked screen on after 125 ms
+09-23 21:06:53.222 1498-1553/system_process V/KeyguardServiceDelegate: onScreenTurnedOn()
+09-23 21:06:53.301 1498-1859/system_process I/InputDispatcher: (fpc) InputDispatcher set sys.domekey.down = 1
+09-23 21:06:53.302 1498-1859/system_process D/BaseMiuiPhoneWindowManager: keyCode:3 down:true 17725380 17725380 policyFlags=22000000 deviceId:7 isScreenOn:true
+09-23 21:06:53.306 1498-1859/system_process W/XSpaceManagerService: checkXSpaceControl, from:android, to:com.miui.tsmclient, with act:com.miui.intent.action.DOUBLE_CLICK, callingUserId:0, toUserId:0
+09-23 21:06:53.312 1498-1859/system_process I/ActivityManager: START u0 {act=com.miui.intent.action.DOUBLE_CLICK flg=0x20000000 cmp=com.miui.tsmclient/.ui.quick.DoubleClickActivity (has extras)} from uid 1000 on display 0
+09-23 21:06:53.312 1498-1859/system_process W/ActivityManager: startActivity called from non-Activity context; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent { act=com.miui.intent.action.DOUBLE_CLICK flg=0x20800000 cmp=com.miui.tsmclient/.ui.quick.DoubleClickActivity (has extras) }
+09-23 21:06:53.345 1498-1553/system_process D/AutomaticBrightnessController: mLightSensorListener mProximity=0 ,time=17725428 ,lux=0.0
+09-23 21:06:53.345 1498-1553/system_process D/AutomaticBrightnessController: setAmbientLux: mAmbientLux=0.0, mBrighteningLuxThreshold=0.0, mDarkeningLuxThreshold=0.0, angle_xy2horizon=26.506853
+09-23 21:06:53.345 1498-1553/system_process D/AutomaticBrightnessController: setAmbientLux: mAmbientLux=0.0, mBrighteningLuxThreshold=0.0, mDarkeningLuxThreshold=0.0, angle_xy2horizon=26.506853
+09-23 21:06:53.347 1498-2112/system_process D/SurfaceControl: Excessive delay in setPowerMode(): 229ms
+09-23 21:06:53.358 1498-1859/system_process I/Timeline: Timeline: App_transition_ready time:17725442
+09-23 21:06:53.359 1498-1859/system_process E/ActivityManager: Invalid thumbnail dimensions: 0x0
+09-23 21:06:53.360 1498-1859/system_process I/Timeline: Timeline: App_transition_ready time:17725443
+09-23 21:06:53.361 1498-1527/system_process V/UidProcStateHelper: process state changed:[27567,10086,5]
+09-23 21:06:53.375 1498-1498/system_process V/NotificationListeners: disabling notification listener for user 0: ComponentInfo{com.android.keyguard/miui.maml.elements.MusicListenerService}
+09-23 21:06:53.375 1498-1498/system_process V/NotificationListeners: disabling notification listener for user 0: ComponentInfo{com.xiaomi.xmsf/com.xiaomi.xmsf.push.service.notificationcollection.NotificationListener}
+09-23 21:06:53.375 1498-1498/system_process V/NotificationListeners: disabling notification listener for user 0: ComponentInfo{com.android.systemui/miui.maml.elements.MusicListenerService}
+09-23 21:06:53.376 1498-1498/system_process V/NotificationListeners: disabling notification listener for user 0: ComponentInfo{com.securespaces.android.ssm.service/com.securespaces.android.ssm.service.NotificationListener}
+09-23 21:06:53.376 1498-1498/system_process V/NotificationListeners: enabling notification listener for user 0: ComponentInfo{com.android.keyguard/miui.maml.elements.MusicListenerService}
+09-23 21:06:53.380 1498-1498/system_process V/NotificationListeners: enabling notification listener for user 0: ComponentInfo{com.securespaces.android.ssm.service/com.securespaces.android.ssm.service.NotificationListener}
+09-23 21:06:53.383 1498-1498/system_process V/NotificationListeners: enabling notification listener for user 0: ComponentInfo{com.android.systemui/miui.maml.elements.MusicListenerService}
+09-23 21:06:53.397 1498-1859/system_process I/InputDispatcher: (fpc) InputDispatcher set sys.domekey.down = 0
+09-23 21:06:53.397 1498-1859/system_process D/BaseMiuiPhoneWindowManager: keyCode:3 down:false 17725480 17725380 policyFlags=22000000 deviceId:7 isScreenOn:true
+09-23 21:06:53.399 1498-1859/system_process D/WindowManager: keyguardActive=true
+09-23 21:06:53.400 1498-1498/system_process V/NotificationListeners: enabling notification listener for user 0: ComponentInfo{com.xiaomi.xmsf/com.xiaomi.xmsf.push.service.notificationcollection.NotificationListener}
+09-23 21:06:53.458 1498-1510/system_process I/Timeline: Timeline: App_transition_ready time:17725541
+09-23 21:06:53.460 1498-1510/system_process I/Timeline: Timeline: App_transition_ready time:17725543
+09-23 21:06:53.493 1498-1551/system_process I/Timeline: Timeline: App_transition_ready time:17725576
+09-23 21:06:53.494 1498-1551/system_process I/Timeline: Timeline: App_transition_stopped time:17725577
+09-23 21:06:53.501 1498-1551/system_process I/ActivityManager: Displayed com.miui.tsmclient/.ui.quick.DoubleClickActivity: +142ms (total +146ms)
+09-23 21:06:53.501 1498-1551/system_process I/Timeline: Timeline: Activity_windows_visible id: ActivityRecord{c30ddc3 u0 com.miui.tsmclient/.ui.quick.DoubleClickActivity t554} time:17725584
+09-23 21:06:53.518 1498-2743/system_process I/Timeline: Timeline: App_transition_ready time:17725601
+09-23 21:06:53.518 1498-2743/system_process I/Timeline: Timeline: App_transition_stopped time:17725602
+09-23 21:06:53.522 1498-1498/system_process V/LocationPolicy: Screen state changed
+09-23 21:06:53.522 1498-1527/system_process V/UidProcStateHelper: process state changed:[27567,10086,2]
+09-23 21:06:53.522 1498-1527/system_process V/UidProcStateHelper: process state changed:[2851,10017,2]
+09-23 21:06:53.527 1498-3045/system_process E/LocSvc_libulp: W/Loc HAL handshake did not happen yet...
+09-23 21:06:53.746 1498-1527/system_process V/UidProcStateHelper: process state changed:[6936,10146,10]
+09-23 21:06:53.749 1498-1527/system_process V/UidProcStateHelper: process state changed:[6936,10146,4]
+09-23 21:06:53.770 1498-1527/system_process V/UidProcStateHelper: process state changed:[20743,99910170,11]
+09-23 21:06:53.770 1498-1527/system_process V/UidProcStateHelper: process state changed:[3908,99910170,11]
+09-23 21:06:53.775 1498-1527/system_process V/UidProcStateHelper: process state changed:[7172,10035,10]
+09-23 21:06:53.776 1498-1527/system_process V/UidProcStateHelper: process state changed:[20743,99910170,14]
+09-23 21:06:53.779 1498-1527/system_process V/UidProcStateHelper: process state changed:[7172,10035,16]
+09-23 21:06:53.783 1498-1527/system_process V/UidProcStateHelper: process state changed:[20743,99910170,11]
+09-23 21:06:53.789 1498-1527/system_process V/UidProcStateHelper: process state changed:[20743,99910170,14]
+09-23 21:06:53.789 1498-1527/system_process V/UidProcStateHelper: process state changed:[3908,99910170,15]
+09-23 21:06:53.802 1498-1527/system_process V/UidProcStateHelper: process state changed:[10286,10170,11]
+09-23 21:06:53.802 1498-1527/system_process V/UidProcStateHelper: process state changed:[15047,10170,11]
+09-23 21:06:53.810 1498-1527/system_process V/UidProcStateHelper: process state changed:[10286,10170,16]
+09-23 21:06:53.810 1498-1527/system_process V/UidProcStateHelper: process state changed:[15047,10170,16]
+09-23 21:06:53.987 1498-1553/system_process D/AutomaticBrightnessController: setAmbientLux: mAmbientLux=0.28734437, mBrighteningLuxThreshold=0.660892, mDarkeningLuxThreshold=0.028734444, angle_xy2horizon=28.384132
+09-23 21:06:54.742 1498-1859/system_process D/BaseMiuiPhoneWindowManager: keyCode:26 down:true 17726824 17726824 policyFlags=22000000 deviceId:5 isScreenOn:true
+09-23 21:06:54.742 1498-1859/system_process D/WindowManager: keyguardActive=false
+09-23 21:06:54.907 1498-1859/system_process D/BaseMiuiPhoneWindowManager: keyCode:26 down:false 17726990 17726824 policyFlags=22000000 deviceId:5 isScreenOn:true
+09-23 21:06:54.907 1498-1859/system_process D/WindowManager: keyguardActive=false
+09-23 21:06:54.908 1498-1859/system_process I/PowerManagerService: Going to sleep due to power button (uid 1000)...
+09-23 21:06:54.990 1498-1553/system_process E/ActivityManager: Invalid thumbnail dimensions: 0x0
+09-23 21:06:55.008 1498-1553/system_process V/KeyguardServiceDelegate: onScreenTurnedOff()
+09-23 21:06:55.008 1498-1527/system_process V/UidProcStateHelper: process state changed:[27567,10086,5]
+09-23 21:06:55.009 1498-1527/system_process V/UidProcStateHelper: process state changed:[2851,10017,5]
+09-23 21:06:55.009 1498-1553/system_process W/ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1231 com.android.server.policy.BaseMiuiPhoneWindowManager.startCameraProcess:476 com.android.server.policy.BaseMiuiPhoneWindowManager.screenTurnedOff:469 com.android.server.display.DisplayPowerController.setScreenState:866 com.android.server.display.DisplayPowerController.animateScreenStateChange:984
+09-23 21:06:55.016 1498-1553/system_process D/AutomaticBrightnessController: setLightSensorEnabled disable
+09-23 21:06:55.016 1498-1553/system_process D/AutomaticBrightnessController: setProximitySensorEnabled disable
+09-23 21:06:55.022 1498-1551/system_process I/DisplayManagerService: Display device changed state: "内置屏幕", OFF
+09-23 21:06:55.244 1498-2112/system_process D/SurfaceControl: Excessive delay in setPowerMode(): 221ms
+09-23 21:06:55.247 1498-1553/system_process W/DreamManagerService: Dream ComponentInfo{com.android.systemui/com.android.systemui.doze.DozeService} does not exist
+09-23 21:06:55.248 1498-1553/system_process I/PowerManagerService: Sleeping (uid 1000)...
+09-23 21:06:55.257 1498-1527/system_process V/UidProcStateHelper: process state changed:[27567,10086,11]
+09-23 21:06:55.262 1498-1527/system_process V/UidProcStateHelper: process state changed:[27567,10086,16]
+09-23 21:06:55.268 1498-1498/system_process V/LocationPolicy: Screen state changed

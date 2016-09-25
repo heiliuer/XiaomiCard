@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ui="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/card_recharge_rl_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/card_recharge_ll_card_localized" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="14.0dip">
+                <ImageView android:id="@id/card_recharge_iv_card_pic" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_transport_default" />
+                <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:layout_gravity="start|bottom|center" android:id="@id/card_list_tv_card_name" android:paddingLeft="34.0dip" android:paddingBottom="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/card_list_user_location" />
+            </FrameLayout>
+            <View android:background="#fff1f1f1" android:layout_width="fill_parent" android:layout_height="7.0dip" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/card_recharge_rl_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/card_recharge_ll_card_localized">
+            <com.miui.tsmclient.ui.widget.RechargeItemView android:id="@id/card_recharge_item_issue" android:layout_width="fill_parent" android:layout_height="wrap_content" ui:leftText="@string/card_recharge_issue_item_text" ui:leftTextSize="@dimen/card_issue_list_item_first_title_text_size" ui:leftTextColor="@color/card_issue_list_first_title_text_color" ui:rightTextSize="@dimen/card_issue_list_item_second_title_text_size" ui:rightTextColor="@color/card_issue_list_text_color_gray" />
+            <com.miui.tsmclient.ui.widget.RechargeItemView android:id="@id/card_recharge_item_recharge" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/card_recharge_item_issue" ui:leftText="@string/card_recharge_recharge_item_text" ui:leftTextSize="@dimen/card_issue_list_item_first_title_text_size" ui:leftTextColor="@color/card_issue_list_first_title_text_color" ui:rightTextSize="@dimen/card_issue_list_item_second_title_text_size" ui:rightTextColor="@color/card_issue_list_text_color_gray" ui:showRightArrow="true" />
+            <com.miui.tsmclient.ui.widget.RechargeItemView android:id="@id/card_recharge_item_discount" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/card_recharge_item_recharge" ui:leftText="@string/card_recharge_discount_item_text" ui:leftTextSize="@dimen/card_issue_list_item_first_title_text_size" ui:leftTextColor="@color/card_issue_list_first_title_text_color" ui:rightTextSize="@dimen/card_issue_list_item_second_title_text_size" ui:rightTextColor="@color/card_issue_list_text_color_gray" />
+            <com.miui.tsmclient.ui.widget.RechargeItemView android:id="@id/card_recharge_item_pay" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/card_recharge_item_discount" ui:leftText="@string/card_recharge_pay_item_text" ui:leftTextSize="@dimen/card_issue_list_item_first_title_text_size" ui:leftTextColor="@color/card_issue_list_first_title_text_color" ui:rightTextSize="@dimen/card_issue_list_item_second_title_text_size" ui:rightTextColor="@color/orange" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/tsm_content_margin_default" android:layout_alignParentBottom="true">
+            <LinearLayout android:gravity="center_vertical" android:id="@id/card_intro_ll_protocols" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/card_intro_protocol_margin_bottom" android:layout_centerHorizontal="true">
+                <CheckBox android:textSize="@dimen/tsm_text_size_content_small" android:gravity="center_vertical" android:id="@id/card_intro_chk_contracts" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/card_intro_chk_margin_right" android:text="@string/agree" style="@style/TextAppearance.Content.Light" />
+                <TextView android:textSize="@dimen/tsm_text_size_content_small" android:textColor="@android:color/black" android:id="@id/card_intro_tv_protocols" android:text="@string/agree" style="@style/TextAppearance.Content" />
+            </LinearLayout>
+            <Button android:enabled="false" android:textSize="@dimen/tsm_text_size_button_normal" android:id="@id/card_recharge_btn_pay" android:layout_marginLeft="@dimen/tsm_content_margin_default" android:layout_marginRight="@dimen/tsm_content_margin_default" android:text="@string/card_recharge_pay_now" android:layout_below="@id/card_intro_ll_protocols" style="@style/Widget.Button.Warning" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/card_recharge_ll_error" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/card_recharge_ic_error" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/list_ic_empty" />
+        <TextView android:id="@id/card_recharge_tv_error_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/service_unavailable" style="@style/TextAppearance.Content.Light" />
+    </LinearLayout>
+</RelativeLayout>

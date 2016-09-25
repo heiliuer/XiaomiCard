@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent"
+    android:layout_height="wrap_content" android:background="@drawable/card_detail_grid_item"
+    android:minHeight="90.0dip">
+    <ImageView android:layout_width="@dimen/divider_dimen" android:layout_height="fill_parent"
+        android:layout_gravity="right" android:background="@color/card_detail_grid_line" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/divider_dimen"
+        android:layout_gravity="bottom" android:background="@color/card_detail_grid_line" />
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical" android:layout_marginLeft="@dimen/card_detail_item_icon_margin_left"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageView android:id="@id/image" android:layout_width="@dimen/card_detail_grid_icon_width"
+            android:layout_height="@dimen/card_detail_grid_icon_height"
+            android:layout_marginRight="@dimen/card_detail_item_icon_margin_right"
+            android:scaleType="centerCrop" />
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView android:id="@id/title"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:singleLine="true" android:textColor="@color/card_detail_grid_item_title"
+                android:textSize="@dimen/card_detail_grid_item_title_text_size" />
+            <TextView android:id="@id/summary"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginTop="1.0dip" android:singleLine="true"
+                android:textColor="@color/card_detail_grid_item_summary" android:textSize="@dimen/card_detail_grid_item_summary_text_size" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

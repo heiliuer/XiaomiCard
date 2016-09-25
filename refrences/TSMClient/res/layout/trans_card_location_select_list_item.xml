@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.ListView.Item.SingleLine"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/tv_location_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/card_default_card" android:singleLine="true" style="@style/TextAppearance.List.Primary" />
+</LinearLayout>

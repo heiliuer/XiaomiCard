@@ -1,0 +1,317 @@
+<manifest package="com.miui.miuibbs" platformBuildVersionCode="23"
+    platformBuildVersionName="6.0-2704002" versionCode="270" versionName="2.7.0">
+    <uses-sdk minSdkVersion="14" targetSdkVersion="23"></uses-sdk>
+    <permission name="com.miui.miuibbs.permission.MIPUSH_RECEIVE" protectionLevel="2"></permission>
+    <uses-permission name="android.permission.INTERNET"></uses-permission>
+    <uses-permission name="android.permission.USE_CREDENTIALS"></uses-permission>
+    <uses-permission name="android.permission.GET_ACCOUNTS"></uses-permission>
+    <uses-permission name="android.permission.MANAGE_ACCOUNTS"></uses-permission>
+    <uses-permission name="android.permission.AUTHENTICATE_ACCOUNTS"></uses-permission>
+    <uses-permission name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission name="android.permission.READ_PHONE_STATE"></uses-permission>
+    <uses-permission name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+    <uses-permission name="android.permission.READ_LOGS"></uses-permission>
+    <uses-permission name="android.permission.GET_TASKS"></uses-permission>
+    <uses-permission name="android.permission.VIBRATE"></uses-permission>
+    <uses-permission name="android.permission.BLUETOOTH"></uses-permission>
+    <uses-permission name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+    <uses-permission name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <uses-permission name="com.miui.miuibbs.permission.MIPUSH_RECEIVE"></uses-permission>
+    <uses-permission name="miui.permission.BUGREPORT"></uses-permission>
+    <uses-permission name="com.xiaomi.market.sdk.UPDATE"></uses-permission>
+    <uses-permission name="android.permission.CAMERA"></uses-permission>
+    <uses-feature name="android.hardware.camera"></uses-feature>
+    <uses-feature name="android.hardware.camera.autofocus"></uses-feature>
+    <uses-permission
+        name="com.xiaomi.passport.permission.PASSPORT_UI_CONTROLLER_SERVICE"></uses-permission>
+    <uses-permission name="android.permission.READ_CONTACTS"></uses-permission>
+    <uses-permission name="android.permission.SEND_SMS"></uses-permission>
+    <uses-permission name="android.permission.WRITE_SETTINGS"></uses-permission>
+    <uses-permission name="android.permission.NFC"></uses-permission>
+    <uses-permission name="android.permission.READ_SYNC_SETTINGS"></uses-permission>
+    <uses-permission name="android.permission.READ_SYNC_STATS"></uses-permission>
+    <uses-permission name="android.permission.WRITE_SYNC_SETTINGS"></uses-permission>
+    <uses-permission name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
+    <uses-permission name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"></uses-permission>
+    <uses-permission name="android.permission.FLASHLIGHT"></uses-permission>
+    <uses-permission name="android.permission.BLUETOOTH_ADMIN"></uses-permission>
+    <uses-permission name="com.xiaomi.permission.CLOUD_MANAGER"></uses-permission>
+    <uses-permission name="com.xiaomi.channel.GAME_SERVICE_PERMISSION"></uses-permission>
+    <uses-permission name="com.xiaomi.xmsf.permission.PAYMENT"></uses-permission>
+    <uses-permission name="com.android.launcher.permission.READ_SETTINGS"></uses-permission>
+    <uses-permission name="android.permission.BROADCAST_STICKY"></uses-permission>
+    <uses-permission name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+    <application name="com.miui.miuibbs.BbsApplication" allowBackup="true"
+        icon="resource_id:0x7f0e0000" label="resource_id:0x7f0c0061" theme="resource_id:0x7f0d00ec">
+        <activity name="com.miui.miuibbs.activity.WelcomeActivity" screenOrientation="1"
+            theme="resource_id:0x7f0d00eb">
+            <intent-filter>
+                <action name="android.intent.action.MAIN"></action>
+                <category name="android.intent.category.LAUNCHER"></category>
+            </intent-filter>
+        </activity>
+        <activity name="com.miui.miuibbs.activity.BbsActivity" label="resource_id:0x7f0c0061"
+            launchMode="2" screenOrientation="1" theme="resource_id:0x7f0d00ea"></activity>
+        <activity name="com.miui.miuibbs.activity.MiddlewareActivity" screenOrientation="1"
+            theme="resource_id:0x1030055">
+            <intent-filter>
+                <action name="android.intent.action.VIEW"></action>
+                <category name="android.intent.category.DEFAULT"></category>
+                <category name="android.intent.category.BROWSABLE"></category>
+                <data host="www.miui.com" path="/forum.php" scheme="http"></data>
+                <data host="www.miui.com" path="/index.php" scheme="http"></data>
+                <data host="www.miui.com" path="/index.html" scheme="http"></data>
+            </intent-filter>
+            <intent-filter>
+                <action name="android.intent.action.VIEW"></action>
+                <category name="android.intent.category.DEFAULT"></category>
+                <category name="android.intent.category.BROWSABLE"></category>
+                <data scheme="miuibbs"></data>
+            </intent-filter>
+        </activity>
+        <activity name="com.miui.miuibbs.ForumViewActivity" screenOrientation="1">
+            <intent-filter>
+                <action name="android.intent.action.VIEW"></action>
+                <category name="android.intent.category.DEFAULT"></category>
+                <category name="android.intent.category.BROWSABLE"></category>
+                <data host="www.miui.com" pathPrefix="/forum" scheme="http"></data>
+                <data host="www.miui.com" pathPrefix="/thread" scheme="http"></data>
+                <data host="www.miui.com" pathPrefix="/type" scheme="http"></data>
+            </intent-filter>
+        </activity>
+        <activity name="com.miui.miuibbs.wxapi.WXEntryActivity" exported="true"
+            screenOrientation="1" theme="resource_id:0x7f0d00d8"></activity>
+        <activity name="com.miui.miuibbs.wxapi.WXPayEntryActivity" exported="true"
+            label="resource_id:0x7f0c0000" launchMode="1" theme="resource_id:0x103000f"></activity>
+        <activity name="com.miui.miuibbs.activity.LoginActivity" screenOrientation="1"></activity>
+        <activity name="com.miui.miuibbs.activity.FeedbackEntryDetailActivity"
+            screenOrientation="1"></activity>
+        <activity name="com.miui.miuibbs.activity.ComposeActivity" configChanges="1152"
+            screenOrientation="1"></activity>
+        <activity name="com.miui.miuibbs.myspace.MySpaceActivity" screenOrientation="1">
+            <intent-filter>
+                <action name="android.intent.action.VIEW"></action>
+                <category name="android.intent.category.DEFAULT"></category>
+                <data host="www.miui.com" pathPrefix="/app/mySpace" scheme="http"></data>
+            </intent-filter>
+        </activity>
+        <activity name="com.miui.miuibbs.activity.CommonWebViewActivity" screenOrientation="1">
+            <intent-filter>
+                <action name="android.intent.action.VIEW"></action>
+                <category name="android.intent.category.DEFAULT"></category>
+                <category name="android.intent.category.BROWSABLE"></category>
+                <data host="www.miui.com" path="/hd" scheme="http"></data>
+                <data host="www.miui.com" pathPrefix="/hd/" scheme="http"></data>
+            </intent-filter>
+        </activity>
+        <activity name="com.miui.miuibbs.activity.ChooseForumActivity"
+            screenOrientation="1"></activity>
+        <activity name="com.miui.miuibbs.activity.ForumFilterActivity"
+            screenOrientation="1"></activity>
+        <activity name="com.miui.miuibbs.activity.ImageViewActivity"
+            screenOrientation="1"></activity>
+        <activity name="com.miui.miuibbs.qrcode.ScanQrcodeActivity" exported="true"
+            screenOrientation="1"></activity>
+        <activity name="com.miui.miuibbs.activity.ScanResultActivity"
+            screenOrientation="1"></activity>
+        <activity name="com.miui.miuibbs.ui.ImagePickerActivity" screenOrientation="1"></activity>
+        <activity name="com.miui.miuibbs.activity.ShareWeiboActivity" exported="true"
+            theme="resource_id:0x7f0d00d8">
+            <intent-filter>
+                <action name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"></action>
+                <category name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+        </activity>
+        <activity name="com.miui.miuibbs.myspace.MyInfoActivity" screenOrientation="1"></activity>
+        <activity name="com.miui.miuibbs.myspace.SetLocationActivity"
+            screenOrientation="1"></activity>
+        <activity name="com.miui.miuibbs.myspace.MyMissionActivity"
+            screenOrientation="1"></activity>
+        <activity name="com.miui.miuibbs.myspace.MissionInfoActivity"
+            screenOrientation="1"></activity>
+        <activity name="com.miui.miuibbs.myspace.MyPrizeActivity" screenOrientation="1"></activity>
+        <activity name="com.miui.miuibbs.myspace.CreditsMarketActivity"
+            screenOrientation="1"></activity>
+        <activity name="com.miui.miuibbs.search.view.SearchActivity" screenOrientation="1"
+            windowSoftInputMode="0">
+            <intent-filter>
+                <action name="android.intent.action.VIEW"></action>
+                <category name="android.intent.category.DEFAULT"></category>
+                <category name="android.intent.category.BROWSABLE"></category>
+                <data host="www.miui.com" path="/app/search" scheme="http"></data>
+            </intent-filter>
+        </activity>
+        <service name="com.miui.miuibbs.SyncService"></service>
+        <service name="com.xiaomi.push.service.XMPushService" enabled="true"
+            process=":pushservice"></service>
+        <service name="com.xiaomi.mipush.sdk.PushMessageHandler" enabled="true"
+            exported="true"></service>
+        <service name="com.xiaomi.mipush.sdk.MessageHandleService" enabled="true"></service>
+        <service name="com.xiaomi.passport.accountmanager.MiAuthenticatorService">
+            <intent-filter>
+                <action name="com.xiaomi.accounts.AccountAuthenticator"></action>
+            </intent-filter>
+            <meta-data name="com.xiaomi.accounts.AccountAuthenticator"
+                resource="resource_id:0x7f050008"></meta-data>
+        </service>
+        <service name="com.miui.miuibbs.DownloadService"></service>
+        <receiver name="com.miui.miuibbs.receiver.BbsReceiver">
+            <intent-filter>
+                <action name="android.intent.action.DOWNLOAD_COMPLETE"></action>
+            </intent-filter>
+            <intent-filter>
+                <action name="miui.intent.action.BUGREPORT_COMPLETE"></action>
+                <data scheme="file"></data>
+            </intent-filter>
+            <intent-filter>
+                <action name="check_notify"></action>
+            </intent-filter>
+        </receiver>
+        <receiver name="com.xiaomi.market.sdk.DownloadCompleteReceiver">
+            <intent-filter>
+                <action name="android.intent.action.DOWNLOAD_COMPLETE"></action>
+            </intent-filter>
+        </receiver>
+        <receiver name="com.xiaomi.push.service.receivers.NetworkStatusReceiver" exported="true">
+            <intent-filter>
+                <action name="android.net.conn.CONNECTIVITY_CHANGE"></action>
+                <category name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+        </receiver>
+        <receiver name="com.xiaomi.push.service.receivers.PingReceiver" process=":pushservice">
+            <intent-filter>
+                <action name="com.xiaomi.push.PING_TIMER"></action>
+            </intent-filter>
+        </receiver>
+        <receiver name="com.miui.miuibbs.receiver.GetMessageReceiver" exported="true">
+            <intent-filter>
+                <action name="com.xiaomi.mipush.RECEIVE_MESSAGE"></action>
+            </intent-filter>
+            <intent-filter>
+                <action name="com.xiaomi.mipush.MESSAGE_ARRIVED"></action>
+            </intent-filter>
+            <intent-filter>
+                <action name="com.xiaomi.mipush.ERROR"></action>
+            </intent-filter>
+        </receiver>
+        <provider name="com.miui.miuibbs.provider.BbsProvider"
+            authorities="com.miui.miuibbs.provider" exported="false"></provider>
+        <meta-data name="CLIENT_ID" value="180100041079"></meta-data>
+        <meta-data name="WXPAY_APPID" value="wxe784a9ff819a9629"></meta-data>
+        <activity name="com.xiaomi.passport.ui.LoginActivity" configChanges="1187"
+            theme="resource_id:0x7f0d0178" windowSoftInputMode="32">
+            <intent-filter>
+                <action name="com.xiaomi.account.action.XIAOMI_ACCOUNT_LOGIN"></action>
+                <category name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+        </activity>
+        <activity name="com.xiaomi.passport.ui.QuickLoginActivity" configChanges="1184"
+            excludeFromRecents="true" exported="true" theme="resource_id:0x7f0d0177"
+            windowSoftInputMode="32">
+            <intent-filter>
+                <action name="com.xiaomi.account.action.XIAOMI_ACCOUNT_QUICK_LOGIN"></action>
+                <category name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+        </activity>
+        <activity name="com.xiaomi.passport.ui.WelcomeActivity" configChanges="1187"
+            excludeFromRecents="true" launchMode="1" theme="resource_id:0x7f0d0178">
+            <intent-filter>
+                <action name="com.xiaomi.account.action.XIAOMI_ACCOUNT_WELCOME"></action>
+                <category name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+        </activity>
+        <activity name="com.xiaomi.passport.ui.NotificationActivity" configChanges="1184"
+            screenOrientation="1" windowSoftInputMode="2"></activity>
+        <activity name="com.xiaomi.passport.ui.RegisterAccountActivity" configChanges="1187"
+            theme="resource_id:0x7f0d0178" windowSoftInputMode="16">
+            <intent-filter>
+                <action name="com.xiaomi.account.action.XIAOMI_ACCOUNT_REG"></action>
+                <category name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+        </activity>
+        <activity name="com.xiaomi.passport.ui.AreaCodePickerActivity" configChanges="1187"
+            theme="resource_id:0x7f0d0178">
+            <intent-filter>
+                <action name="com.xiaomi.account.action.XIAOMI_ACCOUNT_AREA_CODE"></action>
+                <category name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+        </activity>
+        <activity name="com.xiaomi.passport.ui.AccountUnactivatedActivity" configChanges="1187"
+            taskAffinity="com.xiaomi.passport.ui.AccountUnactivatedActivity"
+            theme="resource_id:0x7f0d0178">
+            <intent-filter>
+                <action name="com.xiaomi.account.action.XIAOMI_ACCOUNT_UNACTIVATED"></action>
+                <category name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+        </activity>
+        <activity name="com.xiaomi.passport.ui.LicenseActivity" excludeFromRecents="true"
+            theme="resource_id:0x7f0d0178">
+            <intent-filter>
+                <action name="com.xiaomi.account.action.VIEW_LICENSE"></action>
+                <category name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+        </activity>
+        <activity name="com.xiaomi.passport.LocalFeatures.GetStsUrlActivity" configChanges="1184"
+            excludeFromRecents="true" theme="resource_id:0x7f0d0177" windowSoftInputMode="32">
+            <intent-filter>
+                <category name="android.intent.category.DEFAULT"></category>
+                <action name="com.xiaomi.account.action.XIAOMI_STS_URL"></action>
+            </intent-filter>
+        </activity>
+        <activity name="com.xiaomi.passport.LocalFeatures.GetStsUrlNotificationActivity"
+            configChanges="1184" screenOrientation="1" theme="resource_id:0x7f0d0178"
+            windowSoftInputMode="32"></activity>
+        <service name="com.xiaomi.passport.MiPassportUIControllerService" exported="false">
+            <intent-filter>
+                <action name="com.xiaomi.account.action.UI_CONTROLLER_SERVICE"></action>
+            </intent-filter>
+        </service>
+        <meta-data name="mishopSdkVersionCode" value="20160906"></meta-data>
+        <meta-data name="mishopSdkVersionName" value="4.1.6"></meta-data>
+        <meta-data name="XM_APPKEY" value="20160628.01.01"></meta-data>
+        <meta-data name="XM_APPCHANNEL" value="ShopSdk"></meta-data>
+        <activity name="com.xiaomi.mishopsdk.SDKActivity" configChanges="32" exported="false"
+            screenOrientation="1">
+            <intent-filter>
+                <action name="android.intent.action.VIEW"></action>
+                <category name="android.intent.category.DEFAULT"></category>
+                <category name="android.intent.category.BROWSABLE"></category>
+                <data scheme="mishopsdk"></data>
+            </intent-filter>
+            <intent-filter>
+                <action name="android.intent.action.VIEW"></action>
+                <category name="android.intent.category.DEFAULT"></category>
+                <data host="m.mi.com" pathPrefix="/sdk" scheme="http"></data>
+            </intent-filter>
+        </activity>
+        <activity name="com.xiaomi.mishopsdk.plugin.PluginRootActivity" configChanges="32"
+            exported="false" screenOrientation="1">
+            <intent-filter>
+                <action name="android.intent.action.VIEW"></action>
+                <action name="com.xiaomi.mishopsdk.pluginRoot"></action>
+                <category name="android.intent.category.DEFAULT"></category>
+                <category name="android.intent.category.BROWSABLE"></category>
+                <data scheme="ShopPlugin"></data>
+            </intent-filter>
+            <intent-filter>
+                <action name="com.xiaomi.mishopsdk.pluginRoot"></action>
+                <category name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+        </activity>
+        <activity name="com.xiaomi.mishopsdk.plugin.PluginChildActivity" configChanges="32"
+            exported="false" screenOrientation="1">
+            <intent-filter>
+                <action name="android.intent.action.VIEW"></action>
+                <action name="com.xiaomi.mishopsdk.pluginChild"></action>
+                <category name="android.intent.category.DEFAULT"></category>
+                <category name="android.intent.category.BROWSABLE"></category>
+                <data scheme="ShopPlugin"></data>
+            </intent-filter>
+        </activity>
+        <activity name="com.alipay.sdk.app.H5PayActivity" configChanges="224" exported="true"
+            screenOrientation="3" theme="resource_id:0x103000d" windowSoftInputMode="18"></activity>
+        <activity name="com.alipay.sdk.auth.AuthActivity" configChanges="224" exported="true"
+            screenOrientation="3" theme="resource_id:0x103000d"></activity>
+    </application>
+</manifest>

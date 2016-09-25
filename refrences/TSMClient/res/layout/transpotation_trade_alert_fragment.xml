@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.tsmclient.ui.widget.SlideView android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/down_view" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tsm="http://schemas.android.com/apk/res/com.miui.tsmclient">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/header_view" android:paddingTop="3.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/trade_alert_header_height">
+        <TextView android:textSize="@dimen/tsm_text_size_content_medium" android:textColor="@color/white" android:id="@id/trade_descp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hci_event_trade_amount_descp" android:includeFontPadding="false" />
+        <com.miui.tsmclient.ui.widget.MiuiDigitFontTextView android:textSize="@dimen/card_detail_text_size_overage" android:textColor="@color/white" android:gravity="center" android:id="@id/trade_amount" android:layout_width="wrap_content" android:layout_height="@dimen/trade_alert_amount_height" tsm:fontStyle="light" />
+        <TextView android:textSize="@dimen/tsm_text_size_content_small" android:textColor="@color/white" android:id="@id/trade_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+    </LinearLayout>
+    <com.miui.tsmclient.ui.widget.FlashView android:id="@id/card_content" android:background="@drawable/card_list_bg_transcard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/trade_alert_margin_normal" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/footer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip">
+        <TextView android:textSize="@dimen/tsm_text_size_content_normal" android:textColor="@color/white" android:id="@id/balance" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+    </LinearLayout>
+</com.miui.tsmclient.ui.widget.SlideView>
