@@ -4,9 +4,9 @@ android {
     signingConfigs {
         heiliuer {
             keyAlias 'heiliuer'
-            keyPassword '110510'
+            keyPassword '123456'
             storeFile file('F:/Android/安卓签名相关/xingonchan')
-            storePassword '110510'
+            storePassword '123456'
         }
     }
     compileSdkVersion 23
