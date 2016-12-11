@@ -26,4 +26,5 @@
     <string name="not_support">抱歉！暂不支持你的系统版本！</string>
     <string name="no_nfc">手机没有nfc功能，无法使用</string>
     <string name="action_goto_forum">打开小米5论坛</string>
+    <string name="switch_nfc">开关NFC</string>
 </resources>

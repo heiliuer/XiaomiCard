@@ -102,6 +102,14 @@
             android:scaleType="fitCenter"
             android:src="@drawable/list_ic_empty" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="@string/switch_nfc"
+            android:typeface="monospace" />
+
 
     </LinearLayout>
 
